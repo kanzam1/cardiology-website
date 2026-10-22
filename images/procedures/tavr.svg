@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+<title id="t">Illustration of TAVR: a catheter-delivered replacement valve expanding inside a narrowed aortic valve</title>
+<rect width="400" height="260" fill="#f6f7f9"/>
+<path d="M330 100 q-16 -18 -40 -10 q-34 -75 -95 -42 q-55 28 -22 95 q32 62 95 72 q63 -10 74 -62 q7 -32 -12 -53 z" fill="#b0263a"/>
+<path d="M60 230 q90 -30 115 -90" stroke="#fcd9c8" stroke-width="40" fill="none" stroke-linecap="round"/>
+<path d="M60 230 q90 -30 115 -90" stroke="#d64f5e" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M60 230 q90 -30 115 -90" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="1 6" fill="none" stroke-linecap="round"/>
+<g transform="translate(150,125) rotate(-30)">
+<rect x="-10" y="-5" width="60" height="26" rx="6" fill="#dcdcdc" stroke="#888" stroke-width="2"/>
+<line x1="-2" y1="-5" x2="-2" y2="21" stroke="#888" stroke-width="2"/>
+<line x1="10" y1="-5" x2="10" y2="21" stroke="#888" stroke-width="2"/>
+<line x1="22" y1="-5" x2="22" y2="21" stroke="#888" stroke-width="2"/>
+<line x1="34" y1="-5" x2="34" y2="21" stroke="#888" stroke-width="2"/>
+<path d="M-6 0 q8 10 0 16 M6 0 q8 10 0 16 M18 0 q8 10 0 16 M30 0 q8 10 0 16" stroke="#b0263a" stroke-width="2" fill="none"/>
+</g>
+<circle cx="175" cy="30" r="12" fill="#ffd9c0"/>
+<path d="M180 25 q30 5 40 55" stroke="#fcd9c8" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.7"/>
+<text x="25" y="25" font-family="Arial, sans-serif" font-size="13" fill="#5a5a5a">New valve expanded inside the old one</text>
+</svg>

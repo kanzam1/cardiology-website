@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+<title id="t">Illustration of cardiac catheterization: a thin catheter threaded from the wrist through an artery to the heart's coronary arteries</title>
+<rect width="400" height="260" fill="#f6f7f9"/>
+<path d="M30 230 q90 -30 120 -90 q20 -40 40 -40 q30 0 40 20" stroke="#fcd9c8" stroke-width="46" fill="none" stroke-linecap="round"/>
+<path d="M30 230 q90 -30 120 -90 q20 -40 40 -40 q30 0 40 20" stroke="#f3c0a6" stroke-width="46" fill="none" stroke-linecap="round" opacity="0.4"/>
+<path d="M300 90 q-14 -16 -35 -8 q-30 -70 -90 -40 q-50 24 -20 90 q30 60 90 70 q60 -10 70 -60 q6 -30 -15 -52 z" fill="#b0263a"/>
+<path d="M55 225 q70 -30 95 -80 q25 -50 55 -60 q40 -12 70 10" stroke="#d64f5e" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M55 225 q70 -30 95 -80 q25 -50 55 -60 q40 -12 70 10" stroke="#ffffff" stroke-width="2" fill="none" stroke-dasharray="1 7" stroke-linecap="round"/>
+<circle cx="275" cy="95" r="6" fill="#ffffff" stroke="#b0263a" stroke-width="2"/>
+<path d="M235 90 q10 -10 25 -15 M225 105 q14 -4 25 -8" stroke="#7a1420" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="55" cy="225" r="10" fill="#ffd9c0"/>
+<text x="30" y="30" font-family="Arial, sans-serif" font-size="13" fill="#5a5a5a">Catheter path: wrist/groin to heart</text>
+</svg>

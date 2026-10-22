@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+<title id="t">Illustration of an implantable loop recorder placed just under the skin of the chest, continuously recording heart rhythm</title>
+<rect width="400" height="260" fill="#f6f7f9"/>
+<rect x="70" y="60" width="200" height="140" rx="30" fill="#fcd9c8"/>
+<rect x="150" y="110" width="46" height="12" rx="6" fill="#444" transform="rotate(-10 173 116)"/>
+<rect x="150" y="108" width="46" height="12" rx="6" fill="#555" transform="rotate(-10 173 114)" opacity="0.7"/>
+<circle cx="151" cy="112" r="3" fill="#888"/>
+<circle cx="193" cy="105" r="3" fill="#888"/>
+<path d="M90 140 l20 0 l8 -22 l10 40 l8 -32 l7 14 l20 0" stroke="#b0263a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+<path d="M90 140 l20 0 l8 -22 l10 40 l8 -32 l7 14 l20 0" stroke="#b0263a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3" transform="translate(0 -4)"/>
+<rect x="305" y="90" width="60" height="90" rx="10" fill="#222"/>
+<rect x="313" y="100" width="44" height="50" rx="4" fill="#0d1b2a"/>
+<path d="M317 125 l8 0 l5 -12 l6 22 l5 -16 l4 6 l15 0" stroke="#7CFC9A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="335" cy="160" r="6" fill="#444"/>
+<text x="70" y="30" font-family="Arial, sans-serif" font-size="13" fill="#5a5a5a">Small device placed under the skin</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+<title id="t">Illustration of an echocardiogram: a probe placed on the chest showing ultrasound waves and a heart image on a monitor</title>
+<rect width="400" height="260" fill="#f6f7f9"/>
+<ellipse cx="110" cy="180" rx="90" ry="28" fill="#e2e4e8"/>
+<rect x="30" y="110" width="160" height="60" rx="30" fill="#fcd9c8"/>
+<circle cx="45" cy="140" r="26" fill="#fcd9c8"/>
+<rect x="60" y="95" width="120" height="18" rx="9" fill="#ffffff" stroke="#b0263a" stroke-width="2"/>
+<rect x="95" y="60" width="26" height="45" rx="6" fill="#b0263a" transform="rotate(20 108 82)"/>
+<path d="M120 70 q15 -12 30 -2" stroke="#b0263a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M126 58 q18 -16 36 -4" stroke="#b0263a" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+<rect x="220" y="40" width="150" height="110" rx="8" fill="#222"/>
+<rect x="232" y="52" width="126" height="86" rx="4" fill="#0d1b2a"/>
+<path d="M240 100 l16 0 l8 -22 l10 40 l8 -30 l6 12 l40 0" stroke="#7CFC9A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M295 70 c10 -14 30 -14 30 4 c0 14 -18 24 -30 34 c-12 -10 -30 -20 -30 -34 c0 -18 20 -18 30 -4 z" fill="#ff8aa1" opacity="0.85"/>
+<rect x="260" y="155" width="70" height="14" rx="3" fill="#444"/>
+<rect x="282" y="169" width="26" height="18" fill="#444"/>
+<rect x="265" y="187" width="90" height="8" rx="4" fill="#666"/>
+</svg>

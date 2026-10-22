@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-labelledby="t">
+<title id="t">Illustration of a treadmill exercise stress test: a patient walking on a treadmill connected to ECG leads while heart rhythm is monitored</title>
+<rect width="400" height="260" fill="#f6f7f9"/>
+<rect x="40" y="195" width="210" height="16" rx="8" fill="#444"/>
+<rect x="55" y="170" width="180" height="26" rx="6" fill="#666"/>
+<rect x="55" y="170" width="180" height="26" rx="6" fill="#777" opacity="0.4"/>
+<rect x="225" y="90" width="12" height="90" rx="4" fill="#444"/>
+<rect x="210" y="80" width="42" height="14" rx="6" fill="#444"/>
+<circle cx="140" cy="70" r="16" fill="#fcd9c8"/>
+<path d="M140 86 q-18 10 -18 40 l0 40 q0 8 8 8 l14 0 l0 -34 l8 0 l0 34 l14 0 q8 0 8 -8 l0 -40 q0 -30 -18 -40 z" fill="#b0263a"/>
+<path d="M122 110 q-20 10 -26 36" stroke="#fcd9c8" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M158 110 q16 6 22 24" stroke="#fcd9c8" stroke-width="10" fill="none" stroke-linecap="round"/>
+<circle cx="113" cy="150" r="7" fill="#fcd9c8"/>
+<circle cx="180" cy="137" r="7" fill="#fcd9c8"/>
+<circle cx="132" cy="96" r="4" fill="#ffffff"/>
+<path d="M132 96 l20 50 l14 -16" stroke="#ffffff" stroke-width="2" fill="none"/>
+<rect x="270" y="40" width="110" height="80" rx="8" fill="#222"/>
+<rect x="280" y="50" width="90" height="60" rx="4" fill="#0d1b2a"/>
+<path d="M286 85 l10 0 l6 -18 l8 32 l6 -24 l5 10 l29 0" stroke="#7CFC9A" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="285" y="30" font-family="Arial, sans-serif" font-size="13" fill="#5a5a5a">Heart rhythm</text>
+</svg>
