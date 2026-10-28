@@ -1,0 +1,1787 @@
+ <!DOCTYPE html> <html lang="en"> <head> <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style> <script>
+        (function (a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y; h.start = 1 * new Date;
+            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+            { 'GTM-WMXZ592': true });
+    </script> <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WMXZ592');
+    </script> <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"f048b8d2c5","applicationID":"46941679","transactionName":"MgQBMUIHWRdSVhBRDgtOIjZgSUQCXkMHSAACBBAAQhBeB1YaXQ8AVFRWBlNLUgcKUEkMBVYFTgdSUVFJBg0HClBTUwYGA1IPO11aEFAECARNBEMWTw==","queueTime":0,"applicationTime":74,"agent":"","atts":"","sslForHttp":"true"}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"f048b8d2c5",applicationID:"46941679",browserID:"47658367"};;/*! For license information please see nr-loader-rum-1.324.0.min.js.LICENSE.txt */
+(()=>{var e={8122(e,t,r){"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):e[s]instanceof Map||e[s]instanceof Set||e[s]instanceof Date||e[s]instanceof RegExp?r[s]=e[s]:"object"==typeof e[s]&&null!==t[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},2555(e,t,r){"use strict";r.d(t,{f:()=>s});var n=r(384),i=r(8122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}r.d(t,["D",0,e=>(0,i.a)(e,a)])},7699(e,t,r){"use strict";var n=r(860);const i=1e6,a={[n.K7.logging]:!0,[n.K7.genericEvents]:!0,[n.K7.jserrors]:!0,[n.K7.ajax]:!0};r.d(t,["It",0,i,"KC",0,a,"qh",0,"SESSION_ERROR","zd",0,5e5])},9324(e,t,r){"use strict";r.d(t,["xv",0,"1.324.0"])},981(e,t,r){"use strict";r.d(t,["R",0,{AJAX:"AjaxRequest",PA:"PageAction",UA:"UserAction",BP:"BrowserPerformance",WS:"WebSocket",SPV:"SecurityPolicyViolation",JSE:"JavaScriptError",LOG:"Log",PVE:"PageView",PVT:"PageViewTiming",SR:"SessionReplay",ST:"SessionTrace",BI:"BrowserInteraction"}])},6154(e,t,r){"use strict";var n=r(1863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=""+s?.location,u=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),d=u&&"undefined"==typeof SharedWorker,l=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)());r.d(t,["OF",0,u,"RI",0,i,"WN",0,l,"bv",0,a,"gm",0,s,"m",0,c,"mw",0,o,"sb",0,d,"zk",0,()=>{const e=s?.performance?.getEntriesByType?.("navigation")?.[0];if(e&&e.responseStart>0&&e.responseStart<s.performance.now())return e}])},3241(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(6154);function i(e={}){try{n.gm.dispatchEvent(new CustomEvent("newrelic",{detail:e}))}catch(e){}}},1687(e,t,r){"use strict";r.d(t,{Ak:()=>o,Ze:()=>u,x3:()=>c});var n=r(3241),i=r(3606),a=r(860),s=r(2646);function o(e,t){if(!e)return;const r={staged:!1,priority:a.P3[t]||0};e.runtime.drainRegistry.get(t)||e.runtime.drainRegistry.set(t,r)}function c(e,t){if(!e)return;const r=e.runtime.drainRegistry;r&&(r.get(t)&&r.delete(t),l(e,t,!1),r.size&&d(e))}function u(e,t="feature",r=!1){if(e){if(!e.runtime.drainRegistry.get(t)||r)return l(e,t);e.runtime.drainRegistry.get(t).staged=!0,d(e)}}function d(e){if(!e)return;const t=Array.from(e.runtime.drainRegistry);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{e.runtime.drainRegistry.delete(t),l(e,t)}))}function l(e,t,r=!0){if(!e)return;const a=e.ee,o=i.i.handlers;if(a&&!a.aborted&&a.backlog&&o){if((0,n.W)({type:"lifecycle",name:"drain",feature:t}),r){const e=a.backlog[t],r=o[t];if(r){for(let t=0;e&&t<e.length;++t)f(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0].context()instanceof s.y&&!t[0].listeners(e).includes(t[1])&&t[0].on(e,t[1])})})}}a.isolatedBacklog||delete o[t],a.backlog[t]=null,a.emit("drain-"+t,[])}}function f(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},7836(e,t,r){"use strict";var n=r(384),i=r(8990),a=r(2646),s=r(5607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach(e=>{e.apply(o,r)});var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{s[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,()=>new a.y(o)):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c),r.d(t,["P",0,o,"ee",0,c])},2646(e,t,r){"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},9908(e,t,r){"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(7836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},3606(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(9908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},3878(e,t,r){"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},5607(e,t,r){"use strict";const n=(0,r(9566).bz)();r.d(t,["W",0,n])},9566(e,t,r){"use strict";r.d(t,{LA:()=>s,bz:()=>a});var n=r(6154);function i(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".split("").map(e=>"x"===e?i(t,r++).toString(16):"y"===e?(3&i()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,a=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(i(r,a++).toString(16));return s.join("")}},2614(e,t,r){"use strict";r.d(t,["BB",0,18e5,"Wt",0,"NRBA_SESSION::","iL",0,{SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},"tS",0,{STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},"wk",0,144e5])},1863(e,t,r){"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944(e,t,r){"use strict";r.d(t,{R:()=>i});var n=r(3241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},8990(e,t,r){"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},6389(e,t,r){"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},1910(e,t,r){"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e?e.toString():"",r=t.includes("[native code]"),a=t.includes("nrWrapper");return r||a||(0,n.R)(64,e?.name||t),i.set(e,r),r})}},5289(e,t,r){"use strict";r.d(t,{GG:()=>s,Qr:()=>c,sB:()=>o});var n=r(3878),i=r(6389);function a(){return"undefined"==typeof document||"complete"===document.readyState}function s(e,t){if(a())return e();const r=(0,i.J)(e),s=setInterval(()=>{a()&&(clearInterval(s),r())},500);(0,n.sp)("load",r,t)}function o(e){if(a())return e();(0,n.DD)("DOMContentLoaded",e)}function c(e){if(a())return e();(0,n.sp)("popstate",e)}},384(e,t,r){"use strict";r.d(t,{Zm:()=>c,bQ:()=>d,dV:()=>u,pV:()=>l});var n=r(6154),i=r(1863),a=r(944),s=r(1910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function c(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function u(){let e=c();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,s.i)(...Object.values(e.o))),e}function d(e,t){let r=c();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t,2===Object.keys(r.initializedAgents).length&&(0,a.R)(69)}function l(){return function(){let e=c();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=c();const t=e.init||{};e.init={...t}}(),u(),function(){let e=c();const t=e.loader_config||{};e.loader_config={...t}}(),c()}r.d(t,["NT",0,o])},2843(e,t,r){"use strict";r.d(t,{G:()=>a,u:()=>i});var n=r(3878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}function a(e,t,r){(0,n.sp)("pagehide",e,t,r)}},9300(e,t,r){"use strict";r(860).K7.ajax;r.d(t,["mo",0,{NONE:"none",FAILURES:"failures",ALL:"all"}])},3969(e,t,r){"use strict";const n=r(860).K7.metrics;r.d(t,["TZ",0,n,"XG",0,"storeEventMetrics","xV",0,"storeSupportabilityMetrics"])},6630(e,t,r){"use strict";const n=r(860).K7.pageViewEvent;r.d(t,["T",0,n])},782(e,t,r){"use strict";const n=r(860).K7.pageViewTiming;r.d(t,["T",0,n])},4234(e,t,r){"use strict";r.d(t,{W:()=>i});var n=r(1687);class i{constructor(e,t){this.agentRef=e,this.ee=e?.ee,this.featureName=t,this.blocked=!1}deregisterDrain(){(0,n.x3)(this.agentRef,this.featureName)}}},7767(e,t,r){"use strict";var n=r(6154);r.d(t,["V",0,e=>n.RI&&!0===e?.privacy.cookies_enabled])},8362(e,t,r){"use strict";r.d(t,{d:()=>a});var n=r(9566),i=r(1741);class a extends i.W{agentIdentifier=(0,n.LA)(16)}},1741(e,t,r){"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(4261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e,t=!1){return this.#e(i.Dl,e,t)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e("log",e,t)}start(){return this.#e("start")}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},4261(e,t,r){"use strict";r.d(t,["BL",0,"finished","CH",0,"recordReplay","Dl",0,"setUserId","Fw",0,"setPageViewName","PA",0,"setCurrentRouteName","Pv",0,"consent","Tb",0,"pauseReplay","U2",0,"addToTrace","V1",0,"measure","Wb",0,"wrapLogger","bt",0,"setErrorHandler","cD",0,"setCustomAttribute","dT",0,"interaction","eY",0,"register","fF",0,"recordCustomEvent","hG",0,"addPageAction","k6",0,"addRelease","nb",0,"setApplicationVersion","o5",0,"noticeError"])},1738(e,t,r){"use strict";r.d(t,{U:()=>l,Y:()=>d});var n=r(3241),i=r(9908),a=r(1863),s=r(944),o=r(3969),c=r(8362),u=r(860);function d(e,t,r,a){const d=a||r;!d||d[e]&&d[e]!==c.d.prototype[e]||(d[e]=function(){(0,i.p)(o.xV,["API/"+e+"/called"],void 0,u.K7.metrics,r.ee),(0,n.W)({drained:!!r.runtime?.activatedFeatures,type:"data",name:"api",feature:"api-"+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,s.R)(23,e)}})}function l(e,t,r,n,s){const o=e.info;null===r?delete o.jsAttributes[t]:o.jsAttributes[t]=r,(s||null===r)&&(0,i.p)("api-"+n,[(0,a.t)(),t,r],void 0,"session",e.ee)}},8374(e,t,r){r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860(e,t,r){"use strict";const n="events",i="jserrors",a="browser/blobs",s="browser/logs",o={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations"},c={[o.pageViewEvent]:1,[o.pageViewTiming]:2,[o.metrics]:3,[o.jserrors]:4,[o.softNav]:5,[o.ajax]:6,[o.sessionTrace]:7,[o.sessionReplay]:8,[o.logging]:9,[o.genericEvents]:10},u={[o.pageViewEvent]:"rum",[o.pageViewTiming]:n,[o.ajax]:n,[o.softNav]:n,[o.metrics]:i,[o.jserrors]:i,[o.sessionTrace]:a,[o.sessionReplay]:a,[o.logging]:s,[o.genericEvents]:"ins"};r.d(t,["$J",0,u,"K7",0,o,"P3",0,c,"XX",0,i,"Yy",0,s,"df",0,a,"hg",0,"connect"])}};const t={};function r(n){const i=t[n];if(void 0!==i)return i.exports;const a=t[n]={exports:{}};return e[n](a,a.exports,r),a.exports}r.m=e,r.d=(e,t)=>{if(Array.isArray(t))for(var n=0;n<t.length;){var i=t[n++],a=t[n++];r.o(e,i)?0===a&&n++:0===a?Object.defineProperty(e,i,{enumerable:!0,value:t[n++]}):Object.defineProperty(e,i,{enumerable:!0,get:a})}else for(var i in t)r.o(t,i)&&!r.o(e,i)&&Object.defineProperty(e,i,{enumerable:!0,get:t[i]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((t,n)=>(r.f[n](e,t),t),[])),r.u=e=>"nr-rum-1.324.0.min.js",r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),(()=>{const e={},t="NRBA-1.324.0.PROD:";r.l=(n,i,a,s)=>{if(e[n])return void e[n].push(i);let o,c;if(void 0!==a){const e=document.getElementsByTagName("script");for(var u=0;u<e.length;u++){const r=e[u];if(r.getAttribute("src")==n||r.getAttribute("data-webpack")==t+a){o=r;break}}}if(!o){c=!0;var d={296:"sha512-Pjy0Jxmo6oAG6oGKLKrf8x8xyaSM1NuL7vLGv9xRLEw0hrpERDruLI5RxlCHNy0NpMyEPWhlC34zujXIR3qJPQ=="};o=document.createElement("script"),o.charset="utf-8",r.nc&&o.setAttribute("nonce",r.nc),o.setAttribute("data-webpack",t+a),o.src=n,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),d[s]&&(o.integrity=d[s])}e[n]=[i];const l=(t,r)=>{o.onerror=o.onload=null,clearTimeout(f);const i=e[n];if(delete e[n],o.parentNode?.removeChild(o),i?.forEach(e=>e(r)),t)return t(r)},f=setTimeout(l.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=l.bind(null,o.onerror),o.onload=l.bind(null,o.onload),c&&document.head.appendChild(o)}})(),r.r=e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},r.p="https://js-agent.newrelic.com/",(()=>{const e={374:0,840:0};r.f.j=(t,n)=>{let i=r.o(e,t)?e[t]:void 0;if(0!==i)if(i)n.push(i[2]);else{const a=new Promise((r,n)=>i=e[t]=[r,n]);n.push(i[2]=a);const s=r.p+r.u(t),o=new Error,c=n=>{if(r.o(e,t)&&(i=e[t],0!==i&&(e[t]=void 0),i)){const e=n&&("load"===n.type?"missing":n.type),r=n&&n.target&&n.target.src;o.message="Loading chunk "+t+" failed: ("+e+": "+r+")",o.name="ChunkLoadError",o.type=e,o.request=r,i[1](o)}};r.l(s,c,"chunk-"+t,t)}};const t=(t,n)=>{let[i,a,s]=n;var o,c,u=0;if(i.some(t=>0!==e[t])){for(o in a)r.o(a,o)&&(r.m[o]=a[o]);if(s)s(r)}for(t&&t(n);u<i.length;u++)c=i[u],r.o(e,c)&&e[c]&&e[c][0](),e[c]=0},n=self["webpackChunk:NRBA-1.324.0.PROD"]=self["webpackChunk:NRBA-1.324.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{"use strict";r(8374);var e=r(8362),t=r(860);const n=Object.values(t.K7);var i=r(384),a=r(1741);var s=r(2555),o=r(981);t.K7.genericEvents,o.R.PA,o.R.UA,o.R.BP;const c={RESOURCES:"experimental.resources",REGISTER:"register"};var u=r(9300);const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var l=r(2614),f=r(944),g=r(8122);const p="[data-nr-mask]",m=e=>(0,g.a)(e,(()=>{const e={feature_flags:[],experimental:{register:!1,resources:!1,iframe_bridge:!1,iframe_domains:[]},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0,capture_payloads:u.mo.NONE},api:{register:{get enabled(){return e.feature_flags.includes(c.REGISTER)||e.experimental.register},set enabled(t){e.experimental.register=t},duplicate_data_to_container:!1,get allow_iframe_bridge(){return e.feature_flags.includes(c.IFRAME_BRIDGE)||e.experimental.iframe_bridge},set allow_iframe_bridge(t){e.experimental.iframe_bridge=t},get iframe_domains(){return e.experimental.iframe_domains},set iframe_domains(t){Array.isArray(t)?e.experimental.iframe_domains=t:(0,f.R)(1,t)}}},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c.RESOURCES)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:l.wk,inactiveMs:l.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector="".concat(t,",").concat(p):""===t||null===t?e.mask_selector=p:(0,f.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,f.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,f.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]},web_sockets:{enabled:!1}}})());var h=r(6154),v=r(9324);let b=0;const y={buildEnv:"PROD",distMethod:"CDN",version:v.xv,originTime:h.WN},_={consented:!1},w={activatedFeatures:void 0,appMetadata:{},configured:!1,get consented(){return this.session?.state?.consent||_.consented},set consented(e){_.consented=e},customTransaction:void 0,denyList:[],disabled:!1,drainRegistry:new Map,connector:void 0,harvester:void 0,v2Target:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++b},listeningForIframeMessages:!1},R="BA";var A=r(7836),x=r(3241);const E={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0};var S=r(9908);const k="newrelic-iframe-";function T(e,t={},n,o){let{init:c,info:u,loader_config:d,runtime:l={},exposed:f=!0}=t;if(!u){const e=(0,i.pV)();c=e.init,u=e.info,d=e.loader_config}var p;e.init=m(c||{}),e.loader_config=(p=d||{},(0,g.a)(p,E)),u.jsAttributes??={},h.bv&&(u.jsAttributes.isWorker=!0),e.info=(0,s.D)(u);const v=e.init;e.runtime??=(e=>{const t=(0,g.a)(e,w),r=Object.keys(y).reduce((e,t)=>(e[t]={value:y[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)})(l),e.runtime.v2Target??={type:R,instance:e.agentIdentifier,get id(){return e.runtime.appMetadata?.agents?.[0]?.entityGuid},get attributes(){return{"entity.guid":this.id,appId:e.info.applicationID}}},v.proxy.assets&&(e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e})(v.proxy.assets),e.runtime.configured||(Object.defineProperty(e,"beacons",{get:()=>[e.info.beacon,e.info.errorBeacon,e.init.proxy.assets,e.init.proxy.beacon].filter(Boolean)}),Object.defineProperty(e.runtime,"denyList",{get:()=>[...e.init.ajax.deny_list||[],...e.init.ajax.block_internal?e.beacons:[]]}),e.runtime.ptid=e.agentIdentifier,function(e){const t=(0,i.pV)();Object.getOwnPropertyNames(a.W.prototype).forEach(r=>{const n=a.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let i=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return i?i(...t):n})})}(e),e.runtime.loaderType=n,e.ee=A.ee.get(e.agentIdentifier),e.exposed=f,(0,x.W)({drained:!!e.runtime.activatedFeatures,type:"lifecycle",name:"initialize",feature:void 0,data:e.config}),e.init.api.register.allow_iframe_bridge&&h.gm.addEventListener("message",t=>{"string"==typeof t.data?.type&&t.data.type.startsWith(k)&&(0,S.p)("iframe-message",[t],void 0,"IFRAME",e.ee)}),e.runtime.configured=!0)}var j=r(1863),P=r(4261),N=r(1738);var O=r(1687),M=r(4234),I=r(5289),D=r(7767);function V(e){return!!(0,i.dV)().o.MO&&(0,D.V)(e)&&!0===e?.session_trace.enabled}var W=r(6389),B=r(7699);const C=new WeakSet,K=new WeakMap;class U extends M.W{constructor(e,t){super(e,t),this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,W.J)(()=>{(0,O.Ak)(e,this.featureName),t()}))}):(0,O.Ak)(e,t)}importAggregator(e,t,n={}){if(this.featAggregate)return;const i=async()=>{if(await this.deferred,this.#t(e),!(0,s.f)(e.info))return(0,f.R)(43),e.ee.abort(),void this.loadedSuccessfully(!1);try{await async function(e,t,n){if(K.has(e))return K.get(e);const i=(async()=>{if((0,D.V)(e.init))try{const{setupAgentSession:t}=await r.e(296).then(r.bind(r,1768));t(e)}catch(e){(0,f.R)(20,e),t.emit("internal-error",[e]),(0,S.p)(B.qh,[e],void 0,n,t)}if(e.init.api.register.allow_iframe_bridge)try{const{setupIframeMFEMessageListener:t}=await Promise.resolve().then(function(){const e=new Error("Cannot find module '../../loaders/configure/iframe-message-handler'");throw e.code="MODULE_NOT_FOUND",e});t(e)}catch(e){(0,f.R)(23,e)}const[{Connector:i},{Harvester:a}]=await Promise.all([r.e(296).then(r.bind(r,6589)),r.e(296).then(r.bind(r,5237))]);e.runtime.connector=new i(e),e.runtime.harvester=new a(e);const s=Object.values(e.features).filter(t=>e.runtime.drainRegistry.has(t.featureName));Promise.all(s.map(e=>e.onAggregateImported)).then(()=>e.runtime.harvester.startTimer())})();K.set(e,i),await i}(e,this.ee,this.featureName)}catch(e){return(0,f.R)(79,e),this.ee.abort(),void this.loadedSuccessfully(!1)}try{if(!this.#r(this.featureName,e.runtime.session,e.init))return this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:r}=await t();this.featAggregate=new r(e,n),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,f.R)(34,e),this.abortHandler?.(),(0,O.Ze)(this.agentRef,this.featureName,!0),this.loadedSuccessfully(!1)}};h.RI?(0,I.GG)(()=>i(),!0):i()}#r(e,r,n){if(this.blocked)return!1;switch(e){case t.K7.sessionReplay:return V(n)&&!!r;case t.K7.sessionTrace:return!!r;default:return!0}}#t(e){if(!C.has(e)&&(C.add(e),!(0,s.f)(e.info))){const t=(0,i.pV)();let r={...t.info?.jsAttributes};try{r={...r,...e.info?.jsAttributes}}catch(e){}T(e,{...t,info:{...t.info,jsAttributes:r},runtime:e.runtime},e.runtime.loaderType)}}}var L=r(6630);class F extends U{static featureName=L.T;constructor(e){var t;super(e,L.T),this.setupInspectionEvents(),t=e,(0,N.Y)(P.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,S.p)("api-"+P.Fw,[(0,j.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>e.init.feature_flags.includes("rum_v2")?r.e(296).then(r.bind(r,908)):r.e(296).then(r.bind(r,7927)))}setupInspectionEvents(){const e=(e,t)=>{e&&(0,x.W)({timeStamp:e.timeStamp,loaded:"complete"===e.target.readyState,type:"window",name:t,data:e.target.location+""})};(0,I.sB)(t=>{e(t,"DOMContentLoaded")}),(0,I.GG)(t=>{e(t,"load")}),(0,I.Qr)(t=>{e(t,"navigate")}),this.ee.on(l.tS.UPDATE,(e,t)=>{(0,x.W)({type:"lifecycle",name:"session",data:t})})}}class G extends e.d{constructor(e){var t;(super(),h.gm)?(this.features={},(0,i.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(F),T(this,e,e.loaderType||"agent"),t=this,(0,N.Y)(P.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return(0,N.U)(t,e,r,P.cD,n);(0,f.R)(40,typeof r)}else(0,f.R)(39,typeof e)},t),function(e){(0,N.Y)(P.Dl,function(t,r=!1){if("string"!=typeof t&&null!==t)return void(0,f.R)(41,typeof t);const n=e.info.jsAttributes["enduser.id"];r&&null!=n&&n!==t?(0,S.p)("api-setUserIdAndResetSession",[t],void 0,"session",e.ee):(0,N.U)(e,"enduser.id",t,P.Dl,!0)},e)}(this),function(e){(0,N.Y)(P.nb,function(t){if("string"==typeof t||null===t)return(0,N.U)(e,"application.version",t,P.nb,!1);(0,f.R)(42,typeof t)},e)}(this),function(e){(0,N.Y)("start",function(){e.ee.emit("manual-start-all")},e)}(this),function(e){(0,N.Y)(P.Pv,function(t=!0){if("boolean"==typeof t){if((0,S.p)("api-"+P.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum?.()})}}else(0,f.R)(65,typeof t)},e)}(this),this.run()):(0,f.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return n.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),r=[...this.desiredFeatures],i=this.init.feature_flags.includes("rum_v2");r.sort((e,r)=>t.P3[e.featureName]-t.P3[r.featureName]),r.forEach(r=>{if(!e[r.featureName]&&(i||r.featureName!==t.K7.pageViewEvent))return;const n=function(e){switch(e){case t.K7.ajax:return[t.K7.jserrors];case t.K7.sessionTrace:return[t.K7.ajax,t.K7.pageViewEvent];case t.K7.sessionReplay:return[t.K7.sessionTrace];case t.K7.pageViewTiming:return[t.K7.pageViewEvent];default:return[]}}(r.featureName).filter(e=>!(e in this.features));n.length>0&&(0,f.R)(36,{targetFeature:r.featureName,missingDependencies:n}),this.features[r.featureName]=new r(this)})}catch(e){(0,f.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,i.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}var H=r(2843),z=r(782);class Y extends U{static featureName=z.T;constructor(e){super(e,z.T),h.RI&&((0,H.u)(()=>(0,S.p)("docHidden",[(0,j.t)()],void 0,z.T,this.ee),!0),(0,H.G)(()=>(0,S.p)("winPagehide",[(0,j.t)()],void 0,z.T,this.ee)),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9981))))}}var Z=r(3969);class q extends U{static featureName=Z.TZ;constructor(e){super(e,Z.TZ),this.importAggregator(e,()=>r.e(296).then(r.bind(r,9623)))}}new G({features:[F,Y,q],loaderType:"lite"})})()})();</script> <title>
+	Page Not Found | CardioSmart – American College of Cardiology
+</title> <script src="/ResourcePackages/Bootstrap4/assets/dist/js/jquery.js" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="/ResourcePackages/Bootstrap4/assets/dist/css/hdrc-app.css" rel="stylesheet" /> <link href="/css/owl.carousel.css" rel="stylesheet" /> <link href="https://assets.acc.org/Arches/5.0.0/dist/css/cardiosmart_boot.min.css" rel="stylesheet"> <link href="https://assets.acc.org/Arches/5.0.0/dist/css/cardiosmart_uc.min.css" rel="stylesheet"> <!-- Expansion Classes --> <link href="https://assets.acc.org/Arches/5.0.0/dist/css/color-code_social.min.css" rel="stylesheet"> <link href="https://assets.acc.org/Arches/5.0.0/dist/css/color-code_pathway.min.css" rel="stylesheet"> <link href="https://assets.acc.org/Arches/5.0.0/dist/css/color-code_LOE_COR.min.css" rel="stylesheet"> <!-- Kendo UI --> <link href="https://kendo.cdn.telerik.com/2022.3.1109/styles/kendo.common.min.css" rel="stylesheet" type="text/css"> <link href="https://kendo.cdn.telerik.com/2022.3.1109/styles/kendo.default.min.css" rel="stylesheet" type="text/css"> <script src="https://kit.fontawesome.com/71c9d25c4e.js" crossorigin="anonymous"></script> <script src="https://www.google.com/recaptcha/api.js" async defer></script> <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto+Slab&display=swap"> <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans&display=swap"> <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Maven+Pro&display=swap"> <script async src="https://static.addtoany.com/menu/page.js"></script> <script class="coveo-script" src="https://static.cloud.coveo.com/searchui/v2.5549/js/CoveoJsSearch.Lazy.min.js"></script> <script type="text/javascript" src="https://static.cloud.coveo.com/coveo.analytics.js/coveoua.js"></script> <style type="text/css" media="all">#share_social_buttons { display: flex; justify-content: right; }</style><script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+</script><script type="text/javascript">
+var topSlot;
+    googletag.cmd.push(function () {
+
+        var mapping1 = googletag.sizeMapping().
+            addSize([1024, 100], [728, 90]).
+            addSize([375, 667], [300, 250]).
+            addSize([2, 2], [300, 250]).
+            build();
+
+        googletag.pubads().setTargeting('zone', 'cardiosmart');        googletag.defineSlot('/30017927/amc.acc/acc.300x250.top', [300, 250], 'Adslot-0').addService(googletag.pubads());
+	googletag.defineSlot('/30017927/amc.acc/acc.300x250.bottom', [300, 250], 'Adslot-1').addService(googletag.pubads());
+        googletag.defineSlot('/30017927/amc.acc/acc.728x90', [[300, 250], [728, 90]], 'Adslot-2').defineSizeMapping(mapping1).addService(googletag.pubads());
+        googletag.pubads().collapseEmptyDivs();
+        googletag.pubads().enableAsyncRendering();
+        googletag.enableServices();
+    });
+</script><style type="text/css" media="all">.bg_covid{background-color:#8e2582 !important;}
+#footer em.icon-toggle_plus-minus:before {
+    content: "\f146";
+}
+
+
+#footer .collapsed em.icon-toggle_plus-minus:before {
+    content: "\f0fe";
+}
+</style><meta name="Generator" content="Sitefinity 15.1.8325.0 DX" /><link rel="canonical" href="http://www.cardiosmart.org/pagenotfound" /><meta property="og:title" content="Page Not Found | CardioSmart – American College of Cardiology" /><meta property="og:description" content="CardioSmart is the patient engagement program brought to you by the American College of Cardiology." /><meta property="og:url" content="https://www.cardiosmart.org/pagenotfound?initialRequestUrl=http%3a%2f%2fwww.cardiosmart.org%2fresources%2finfographics" /><meta property="og:type" content="CardioSmartPage" /><meta property="og:site_name" content="CardioSmart" /><meta property="og:image" content="https://www.cardiosmart.org/images/default-source/defaultsharing/cardiosmart-social-image.jpg" /><meta name="description" content="CardioSmart is the patient engagement program brought to you by the American College of Cardiology." /></head> <body class="bg_cover bg_no-repeat" data-gr-c-s-loaded="true"> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WMXZ592"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <div class="m_auto max-w_95 bg_white shadow_overlap-bold overflow_hidden">  <!-- header --> 
+
+<div class="custom-content-block" >
+    <div class="font_1" ><header class="p-x_0 p-x_4:md m-b_0 p-t_2 flex"><div class="flex w_100 flex_row flex_auto"><a class="flex_auto max-w_15 max-w_20:md max-w_25:lg p_4:md p-x_0:md p-r_0 p-y_0 p_3" href="/home"><img src="/images/librariesprovider3/header-images/cardiosmart_primarylogo.svg?sfvrsn=bcd0ba2_5" alt="" class="w_100"></a>
+
+ </div><div class="flex flex_row justify_center justify_end:md flex_grow self_top p-t_4 display_none:print" id="searchNavbar"><div class="p-x_1 flex_auto"><nav data-attr="utlity-nav" class="display_none block:md"><ul class="flex ul_none justify_end font_ui"><li class="p-x_3 flex_shrink"><a href="/home" title="CardioSmart" class="font_n1 h:underline c_primary h:c_secondary-n1">Home</a>
+ </li><li class="p-x_3 flex_shrink br-l_1 br_solid br_black-4"><a href="/about" title="About CardioSmart" class="font_n1 h:underline c_primary h:c_secondary-n1">About</a>
+ </li><li class="p-x_3 flex_shrink br-l_1 br_solid br_black-4"><a href="/about/content-use-requests" title="About CardioSmart" class="font_n1 h:underline c_primary h:c_secondary-n1">Content Requests</a>
+ </li><li class="p-x_3 flex_shrink br-l_1 br_solid br_black-4"><a data-sf-ec-immutable="" href="/findyourheartahome" class="font_n1 h:underline c_primary h:c_secondary-n1">FYHAH</a>
+ </li><li class="p-x_3 flex_shrink br-l_1 br_solid br_black-4"><a data-sf-ec-immutable="" title="Early Heart Attack Care" target="_blank" href="https://ehac.acc.org/" class="font_n1 h:underline c_primary h:c_secondary-n1">EHAC</a>
+ </li><li class="p-x_3 flex_shrink br-l_1 br_solid br_black-4"><a data-sf-ec-immutable="" title="American College of Cardiology" target="_blank" href="https://www.acc.org/" class="font_n1 h:underline c_primary h:c_secondary-n1">ACC.org</a>
+ </li></ul></nav><div class="display_none block:md search-component p_4 p-t_3 p-x_0:md p-y_3:md m-t_0:md"><div class="flex flex_column p-x_3 p-y_3"><div class="flex justify_end"><div class="relative w_90 w_auto:md"><input placeholder="Search" class="form-control c_shade-n4 max-w_15:md br_secondary br-tl_radius br-bl_radius w_100 br-tr_square br-br_square" type="text" autocomplete="off" id="searchInputDesk"><ul class="display_none ul_none absolute w_100 t_5 m-t_2 bg_white br_1 br_solid br_shade-3 z_2" id="suggestion_list_desk"><li class="loading display_none">Loading results...</li><li class="a:bg_primary-4 a:c_acc a:font_bold h:bg_primary-4 h:c_acc h:font_bold font_0 p-x_4">text 1
+                                </li><li class="a:bg_primary-4 a:c_acc a:font_bold h:bg_primary-4 h:c_acc h:font_bold font_0 p-x_4">text 2
+                                </li></ul></div><button type="button" class="w_10 w_auto:md btn btn-primary input-group-btn br_primry br_square br-tr_radius br-br_radius" id="searchbtndesk"><em class="far fa-search"></em></button></div><div class="flex justify_end"><span id="errMsgDisplayDesk" class="display_none absolute font_n2  w_auto:md p-x_3 p-y_2 br_1 br_solid br_shade-3 z_2 bg_cor-III-4">Please enter a valid search term
+                        </span>
+ </div></div></div></div></div></header></div>    
+</div>
+
+
+ <!-- /header --> <!-- main navbar --> 
+
+
+
+
+    <div class="flex relative m-t_3 display_none:print" id="removeHeader">
+        <nav class="bg_acc flex_auto flex_wrap font_0 font_1:xl lh_0 navbar navbar-dark navbar-expand-lg navbar-primary p-l_0 p-r_0 p-t_0 p-b_0">
+            <button class="br_none br_0 font_slab m-l_2 m-y_3 navbar-toggler p-l_2 p-r_3 p-y_2 collapsed" type="button" data-bs-toggle="collapse"
+                    
+                    data-bs-target="#navbar-1" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="#ResourceNotFound: NavigationResources,  ToggleNavigation#">
+                <i class="icon-toggle_bars-times fas a:c_acc-2 c_white"></i><span class="a:c_acc-2 c_white">&nbsp;Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-1">
+                <ul class="navbar-nav c_white flex flex_column flex_row:lg w_100 font_slab font_1 font_0:lg font_1:xl">
+                    <li class="display_none:md nav-item o p-x_4 ">
+                        <a class="nav-link" href="/" title="Home | CardioSmart ï¿½ American College of Cardiology">
+                            <i class="fas fa-home"></i><span class="display_none:lg">&nbsp;Home</span>
+                        </a>
+                    </li>
+                        <li class="nav-item dropdown flex_auto p-x_4 p-x_3:lg">
+                                        <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-r_0" href="javascript:;" id="navbarDropdownMenuLink-1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far faw icon-toggle_plus-minus display_none:lg m-l_n2"></i>
+            </a>
+                <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-l_0" id='navbarDropdownMenuLink-1' href="javascript:;" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="display-none inline:lg">
+                    </span>Topics
+                </a>
+                <div class="shadow_overlap-light dropdown-menu  br_3 br_none:md  m-x_0:lg m-x_n4 m-t_0 m-t_2:lg min-w_100p"
+                     aria-labelledby="ssclinicalTopicsDropdown">
+                    <div class="flex flex_column flex_row:md p-x_2:lg m-x_n1 m-x_0:lg">
+                                        <div class="flex_auto p-x_2 p-y_0 p-y_3:md">
+                    <ul class="ul_none m_0">
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/angina" target="_self">
+                                            Angina (Chest Pain)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/aortic-aneurysm" target="_self">
+                                            Aortic Aneurysm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/aortic-stenosis" target="_self">
+                                            Aortic Stenosis
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/atherosclerosis" target="_self">
+                                            Atherosclerosis
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/atrial-fibrillation" target="_self">
+                                            Atrial Fibrillation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/bradycardia" target="_self">
+                                            Bradycardia
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/cancer-treatment-and-your-heart" target="_self">
+                                            Cancer Treatment and Your Heart
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/cardiac-amyloidosis" target="_self">
+                                            Cardiac Amyloidosis
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/cardiac-rehabilitation" target="_self">
+                                            Cardiac Rehabilitation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/congenital-heart-disease" target="_self">
+                                            Congenital Heart Disease
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/coronary-artery-disease" target="_self">
+                                            Coronary Artery Disease
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/coronavirus" target="_self">
+                                            COVID-19 and Your Heart
+                                        </a>
+                                    </li>
+
+                    </ul>
+                </div>
+                    <div class="flex_auto p-x_2 p-y_0 p-y_3:md br-l_1 br_none br_shade-4 br_solid:lg br_solid:md">
+                        <ul class="ul_none m_0">
+
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/diabetes-and-your-heart" target="_self">
+                                        Diabetes and Your Heart
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/endocarditis" target="_self">
+                                        Endocarditis
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/familial-hypercholesterolemia" target="_self">
+                                        Familial Hypercholesterolemia
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/flu-shots-and-your-heart" target="_self">
+                                        Flu and Your Heart
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/heart-attack" target="_self">
+                                        Heart Attack
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/heart-failure" target="_self">
+                                        Heart Failure
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/heart-rhythm-problems" target="_self">
+                                        Heart Rhythm Problems
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/high-blood-pressure" target="_self">
+                                        High Blood Pressure
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/high-cholesterol" target="_self">
+                                        High Cholesterol
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/hypertrophic-cardiomyopathy" target="_self">
+                                        Hypertrophic Cardiomyopathy (HCM)
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/implantable-cardioverter-defibrillators" target="_self">
+                                        Implantable Cardioverter Defibrillators (ICDs)
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/kidneys-and-your-heart" target="_self">
+                                        Kidneys and Your Heart
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+
+                        </ul>
+                    </div>
+                    <div class="flex_auto p-x_2 p-y_0 p-y_3:md br-l_1 br_none br_shade-4 br_solid:lg br_solid:md">
+                        <ul class="ul_none m_0">
+
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/metabolic-syndrome" target="_self">
+                                        Metabolic Syndrome
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/mitral-regurgitation" target="_self">
+                                        Mitral Regurgitation
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/myocarditis" target="_self">
+                                        Myocarditis
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/older-adults-and-heart-disease" target="_self">
+                                        Older Adults and Heart Disease
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/palliative-care" target="_self">
+                                        Palliative Care
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/peripheral-artery-disease" target="_self">
+                                        Peripheral Artery Disease
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/postural-orthostatic-tachycardia-syndrome" target="_self">
+                                        Postural Orthostatic Tachycardia Syndrome (POTS)
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/respiratory-infections-and-your-heart" target="_self">
+                                        Respiratory Infections and Your Heart
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/rsv-and-your-heart" target="_self">
+                                        RSV and Your Heart
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/sleep-apnea" target="_self">
+                                        Sleep Apnea
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/stroke" target="_self">
+                                        Stroke
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/sudden-cardiac-arrest" target="_self">
+                                        Sudden Cardiac Arrest
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+
+                        </ul>
+                    </div>
+                    <div class="flex_auto p-x_2 p-y_0 p-y_3:md br-l_1 br_none br_shade-4 br_solid:lg br_solid:md">
+                        <ul class="ul_none m_0">
+
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/supraventricular-tachycardia" target="_self">
+                                        Supraventricular Tachycardia
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/tricuspid-regurgitation" target="_self">
+                                        Tricuspid Regurgitation
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/ventricular-tachycardia" target="_self">
+                                        Ventricular Tachycardia
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/very-high-triglycerides" target="_self">
+                                        Very High Triglycerides
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/wearable-technology" target="_self">
+                                        Wearable Technology and Your Heart Health
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                       href="/topics/women-and-heart-disease" target="_self">
+                                        Women and Heart Disease
+                                    </a> <ul class="ul_none font_n1 lh_3">
+                                        
+                                    </ul>
+                                </li>
+
+                        </ul>
+                    </div>
+
+                    </div>
+                </div>
+
+                        </li>
+                        <li class="nav-item dropdown flex_auto p-x_4 p-x_3:lg">
+                                        <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-r_0" href="javascript:;" id="navbarDropdownMenuLink-1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far faw icon-toggle_plus-minus display_none:lg m-l_n2"></i>
+            </a>
+                <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-l_0" id='navbarDropdownMenuLink-1' href="/topics/decisions">
+                    <span class="display-none inline:lg">
+                    </span>Decisions
+                </a>
+                <div class="shadow_overlap-light dropdown-menu  br_3 br_none:md  m-x_0:lg m-x_n4 m-t_0 m-t_2:lg w_auto:md min-w_100p"
+                     aria-labelledby="ssclinicalTopicsDropdown">
+                    <div class="flex flex_column flex_row:md p-x_2:lg m-x_n1 m-x_0:lg">
+                                        <div class="flex_auto p-x_2 p-y_0 p-y_3:md">
+                    <ul class="ul_none m_0">
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/decisions/shared-decisions" target="_self">
+                                            Shared Decisions
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/decisions/patients-your-input-matters" target="_self">
+                                            Your Input Matters
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/decisions/decision-aids" target="_self">
+                                            What Are Decision Aids?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/decisions/clinicians-start-a-conversation" target="_self">
+                                            For Clinicians
+                                        </a>
+                                    </li>
+
+                    </ul>
+                </div>
+
+                    </div>
+                </div>
+
+                        </li>
+                        <li class="nav-item dropdown flex_auto p-x_4 p-x_3:lg">
+                                        <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-r_0" href="javascript:;" id="navbarDropdownMenuLink-1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far faw icon-toggle_plus-minus display_none:lg m-l_n2"></i>
+            </a>
+                <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-l_0" id='navbarDropdownMenuLink-1' href="/topics/manage-your-care">
+                    <span class="display-none inline:lg">
+                    </span>Manage Your Care
+                </a>
+                <div class="shadow_overlap-light dropdown-menu  br_3 br_none:md  m-x_0:lg m-x_n4 m-t_0 m-t_2:lg w_auto:md min-w_100p"
+                     aria-labelledby="ssclinicalTopicsDropdown">
+                    <div class="flex flex_column flex_row:md p-x_2:lg m-x_n1 m-x_0:lg">
+                                        <div class="flex_auto p-x_2 p-y_0 p-y_3:md">
+                    <ul class="ul_none m_0">
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/your-responsibilities" target="_self">
+                                            Your Responsibilities
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/preparing-for-your-appointment" target="_self">
+                                            Preparing for Your Visit
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/your-care-team" target="_self">
+                                            Your Care Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/medication-adherence" target="_self">
+                                            Taking Medications
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/staying-on-top-of-your-vaccines" target="_self">
+                                            Staying on Top of Your Vaccines
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/putting-research-into-context" target="_self">
+                                            Putting Research Into Context
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/manage-your-care/clinical-trials" target="_self">
+                                            Clinical Research
+                                        </a>
+                                    </li>
+
+                    </ul>
+                </div>
+
+                    </div>
+                </div>
+
+                        </li>
+                        <li class="nav-item dropdown flex_auto p-x_4 p-x_3:lg">
+                                        <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-r_0" href="javascript:;" id="navbarDropdownMenuLink-1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="far faw icon-toggle_plus-minus display_none:lg m-l_n2"></i>
+            </a>
+                <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-l_0" id='navbarDropdownMenuLink-1' href="/topics/healthy-living">
+                    <span class="display-none inline:lg">
+                    </span>Healthy Living
+                </a>
+                <div class="shadow_overlap-light dropdown-menu  br_3 br_none:md  m-x_0:lg m-x_n4 m-t_0 m-t_2:lg w_auto:md min-w_100p"
+                     aria-labelledby="ssclinicalTopicsDropdown">
+                    <div class="flex flex_column flex_row:md p-x_2:lg m-x_n1 m-x_0:lg">
+                                        <div class="flex_auto p-x_2 p-y_0 p-y_3:md">
+                    <ul class="ul_none m_0">
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/eat-better" target="_self">
+                                            Eat Better
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/lose-weight" target="_self">
+                                            Maintain a Healthy Weight
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/move-more" target="_self">
+                                            Move More
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/stop-smoking" target="_self">
+                                            Stop Smoking
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/manage-stress" target="_self">
+                                            Manage Stress
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item transition_4 wrap nowrap:lg "
+                                           href="/topics/healthy-living/get-vaccinated" target="_self">
+                                            Get Vaccinated
+                                        </a>
+                                    </li>
+
+                    </ul>
+                </div>
+
+                    </div>
+                </div>
+
+                        </li>
+                        <li class="nav-item dropdown flex_auto p-x_4 p-x_3:lg">
+                                        <a class="inline-block nav-link dropdown-toggle overflow-hidden nowrap p-l_0" id='navbarDropdownMenuLink-1' href="/topics/caregivers">
+                <span class="display-none inline:lg">
+                </span>Caregivers
+            </a>
+
+                        </li>
+
+                    <!-- Mobile Quick links -->
+<li class="display_none:lg nav-item o p-x_4">
+    <a class="nav-link" href="/about" title="About CardioSmart">
+        <span class="display_none:lg">About</span>
+    </a>
+</li>
+<li class="display_none:lg nav-item o p-x_4">
+    <a class="nav-link" href="/about/content-use-requests" title="Content Requests">
+        <span class="display_none:lg">Content Requests</span>
+    </a>
+</li>
+<li class="display_none:lg nav-item o p-x_4">
+    <a class="nav-link" href="/find-your-heart-a-home" title="Find Your Heart a Home">
+        <span class="display_none:lg">FYHAH</span>
+    </a>
+</li>
+<li class="display_none:lg nav-item o p-x_4">
+    <a class="nav-link" href="https://ehac.acc.org/" title="Early Heart Attack Care" target="_blank">
+        <span class="display_none:lg">EHAC</span>
+    </a>
+</li>
+<li class="display_none:lg nav-item o p-x_4">
+    <a class="nav-link" href="https://www.acc.org/" title="American College of Cardiology" target="_blank">
+        <span class="display_none:lg">ACC.org</span>
+    </a>
+</li>
+
+                    <li class="nav-item dropdown flex_auto flex_none:md bg_highlight br_highlight p-x_4 flex_end:md">
+                        <a class="inline-block c_black nav-link dropdown-toggle overflow-hidden nowrap p-r_0" href="javascript:;" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="far faw icon-toggle_plus-minus display_none:lg m-l_n2"></i></a>
+                        <a class="inline-block c_black nav-link dropdown-toggle overflow-hidden nowrap p-l_0" href="javascript:;" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="display-none inline:lg">Clinicians</span></a>
+                        <div class="shadow_overlap-light dropdown-menu br_3 br_none:md dropdown-menu-right br_3 br_none:md m-x_0:lg m-x_n4 m-t_0 m-t_2:lg font_0" aria-labelledby="navbarDropdown">
+                            <div class="flex flex_column flex_row:md p-x_2:lg m-x_n1 m-x_0:lg">
+                                <div class="flex_auto p-x_2 p-y_0 ">
+                                    <ul class="ul_none m_0">
+                                        
+                                        <li>
+                                    <a class='dropdown-item transition_4 nowrap capitalize' href='/search?f:@cscontentitemtype=Infographic'>All Infographics</a>
+                                </li><li>
+                                    <a class='dropdown-item transition_4 nowrap capitalize' href='/search?f:@cscontentitemtype=Decision aid'>All Decision aids</a>
+                                </li><li>
+                                    <a class='dropdown-item transition_4 nowrap capitalize' href='/search?f:@cscontentitemtype=Action Plan'>All Action Plans</a>
+                                </li><li>
+                                    <a class='dropdown-item transition_4 nowrap capitalize' href='/search?f:@cscontentitemtype=Action Plan,Decision aid,Discussion guide,Fact sheet,Infographic,Risk calculator,Video,Worksheet'>All Tools</a>
+                                </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="display_none:md bg_shade-3 display_none:print" id="cs_mobile_search_bar">
+        <div class="flex flex_column p-x_3 p-y_3">
+            <div class="flex">
+                <div class="relative flex_auto w_auto:md">
+                    <input id="searchInput" class="br-br_square br-tr_square form-control h_5lh" type="text" placeholder="Search" aria-label="Search">
+                    <ul id="suggestion_list" class="display_none ul_none absolute w_100 t_5 m-t_2 bg_white br_1 br_solid br_shade-3 z_2 overflow_auto scrollbar-mini h_20" style="display: none;">
+                        <li class="loading display_none">Loading results...</li>
+                    </ul>
+                </div>
+                <button id="searchbtn" class="btn btn-primary flex_none br-tl_square br-bl_square h_5lh" type="button">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="flex">
+                <span class="display_none bg_cor-III-4 br_1 br_shade-3 br_solid font_n2 m-t_3 p-x_3 p-y_2 relative w_100 w_auto:md z_2" id="errMsgDisplay">
+                    Please enter a valid search term
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<script id="data" type="application/json">
+    {"Topics":null,"RelatedTopics":null,"PrimaryPathway":null,"SecondaryPathways":null,"SponsorAndPartner":null,"Tags":null,"Concepts":null,"ContentType":"Content Page","PostedDate":"2025-05-30T16:56:33Z","ImagePath":null}
+</script> <!-- /main navbar --> <!-- body --> <section class="container-fluid"> <!-- main content --> 
+
+<div class="custom-content-block" >
+    <div class="font_1" ><h1>Page Not Found</h1><p>The page you are looking for may have been moved or no longer exists. </p><p>Please use the search box above to find information or visit&nbsp;<a href="/home">CardioSmart's homepage</a>.</p><p><a data-sf-ec-immutable=""></a><a href="/home" class="fa fa-home">&nbsp;</a><a href="/home">CardioSmart Home</a><a data-sf-ec-immutable=""></a></p><a data-sf-ec-immutable=""></a></div>    
+</div> <!-- /main content --> </section> <!-- /body --> <!-- footer --> <footer id="footer-wrap" class="display_none:print"> <!-- ********************************** breadcrumbs ********************************** --> 
+ <!-- This is the inner footer that we cache --> 
+
+<div id="footer" class="flex bg_shade-n3 flex_column flex_inline flex_wrap flex_row:md p-x_4:md p-x_0 p-y_4 p-y_0:lg w_100"><!-- column 1 conditions and topics start -->
+    <nav class="flex_auto p-x_3 p-y_4:lg w-grid_3:lg w-grid_6:md font_ui block navbar navbar-expand-lg navbar-expand-md" data-style="icon-toggle_plus-minus">
+        <h2 class="p-x_2 is-active_toggle-function font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" data-sf-ec-immutable="">Topics</a>
+            <a class="h:undecorated p-x_0 c_highlight h:c_secondary-3 display_none:lg display_none:md inline-block collapsed" data-bs-toggle="collapse" data-bs-target="#conditionTopics" aria-controls="conditionTopics" aria-expanded="false" aria-label="Toggle navigation" data-sf-ec-immutable="">
+                <em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em><span class="h:undecorated c_highlight h:c_secondary-3 a:c_highlight">Topics</span>
+            </a>
+        </h2>
+        <ul id="conditionTopics" class="block:md p-x_5 p-x_2:md m-l_3 m-l_0:md font_0:lg font_n1 m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/topics/angina" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5E1DC322-A42C-4D01-AEAC-BAAA9653A639" data-sf-ec-immutable="">Angina</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/aortic-aneurysm" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]D984F485-D839-4683-AE96-C54F99A75C6C" data-sf-ec-immutable="">Aortic Aneurysm</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/aortic-stenosis" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]386C43A1-9B01-425B-A513-E66155DEEDAD" data-sf-ec-immutable="">Aortic Stenosis</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/atherosclerosis" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5EB1422E-AA6C-43F9-A9AC-D3DE883D505B" data-sf-ec-immutable="">Atherosclerosis</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/atrial-fibrillation" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]F0259D75-F36E-4ECF-AABC-2514D8E2542A" data-sf-ec-immutable="">Atrial
+                    Fibrillation</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/bradycardia" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]46106957-CB49-4447-80B0-29045173F191" data-sf-ec-immutable="">Bradycardia</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/cancer-treatment-and-your-heart" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]EF2CB3D0-4EA3-4F2C-A9D4-88999F8D7B97" data-sf-ec-immutable="">Cancer Treatment and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/cardiac-amyloidosis" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3C9FD08D-A588-4C53-AA1B-6149F22B85EE" data-sf-ec-immutable="">Cardiac Amyloidosis</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/cardiac-rehabilitation" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]B6B3A301-51B1-4F9D-BB4A-5825A6471E83" data-sf-ec-immutable="">Cardiac Rehabilitation</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/congenital-heart-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]9C65AACE-5052-4EB2-97DF-E4A55B0791BB" data-sf-ec-immutable="">Congenital Heart Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/coronary-artery-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]E4D262C9-EE05-4FC4-A983-39219F7F8373" data-sf-ec-immutable="">Coronary Artery Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/coronavirus" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]E53A9576-B5AB-412C-AED5-369650614DFF" data-sf-ec-immutable="">Coronavirus (COVID-19)</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/diabetes-and-your-heart" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]E5C22B21-9CE8-4B34-B0F2-B176649A75EB" data-sf-ec-immutable="">Diabetes and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/endocarditis" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3E3AEC93-9365-4842-A612-47E37C7E447B" data-sf-ec-immutable="">Endocarditis</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/familial-hypercholesterolemia" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5A4923CA-2E15-4634-A067-1217EF262BBE" data-sf-ec-immutable="">Familial Hypercholesterolemia</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/flu-shots-and-your-heart" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5EDDF966-A994-4D2C-9197-D78ABAC73419" data-sf-ec-immutable="">Flu Shots and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/heart-attack" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]B4F68731-D9A6-4932-980B-C2F279851595" data-sf-ec-immutable="">Heart Attack</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/heart-failure" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]039C0B5B-6910-4730-B69D-8FDB5DC5E9DC" data-sf-ec-immutable="">Heart Failure</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/high-blood-pressure" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]43EB143C-A7FC-4467-9B6E-5D5FF077790E" data-sf-ec-immutable="">High Blood Pressure</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/high-cholesterol" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]63652C22-ECCC-43E6-BCBC-EB0FBD168A2F" data-sf-ec-immutable="">High Cholesterol</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/hypertrophic-cardiomyopathy" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]ECC78E19-D6EA-4874-B2AC-D0394F1E2851" data-sf-ec-immutable="">Hypertrophic Cardiomyopathy</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/implantable-cardioverter-defibrillators" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]39224C21-943E-4E44-B17E-A5711B7E4128" data-sf-ec-immutable="">Implantable Cardioverter Defibrillators (ICDs)</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/metabolic-syndrome" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]39224C21-943E-4E44-B17E-A5711B7E4128" data-sf-ec-immutable="">Metabolic Syndrome</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/mitral-regurgitation" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]DC3E6186-4095-4B90-BDB8-A76EEA7EE5F5" data-sf-ec-immutable="">Mitral Regurgitation</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/myocarditis" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]1D3156BC-FD19-43F0-9419-F125AB2CC310" data-sf-ec-immutable="">Myocarditis</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/older-adults-and-heart-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]B88090D9-2A4C-49AB-B9C0-E9D21F63401F" data-sf-ec-immutable="">Older Adults and Heart Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/palliative-care" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]65BCC8EF-9336-4703-A6A9-AAAB73E1FF23" data-sf-ec-immutable="">Palliative Care</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/peripheral-artery-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]D88AEDB0-5330-4254-94DC-B54FEF3F48BD" data-sf-ec-immutable="">Peripheral Artery Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/renal-artery-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4ED96DC0-1A84-4DB3-9425-A8E7183C6C11" data-sf-ec-immutable="">Renal Artery Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/respiratory-infections-and-your-heart" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4ED96DC0-1A84-4DB3-9425-A8E7183C6C11" data-sf-ec-immutable="">Respiratory Infections and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/rsv-and-your-heart" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4ED96DC0-1A84-4DB3-9425-A8E7183C6C11" data-sf-ec-immutable="">RSV and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/sleep-apnea" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]F8C44C01-E2DB-48F3-A437-FD4B10AC4C9B" data-sf-ec-immutable="">Sleep Apnea</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/stroke" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]16ACC509-FB0E-452B-B4AD-493701CCFE14" data-sf-ec-immutable="">Stroke</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/subclavian-artery-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]BA9DE56C-B1FA-466D-8555-43D70986B350" data-sf-ec-immutable="">Subclavian Artery Disease</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/sudden-cardiac-arrest" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]102651CB-0266-4D27-BBB4-0732E1254B55" data-sf-ec-immutable="">Sudden Cardiac Arrest</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/supraventricular-tachycardia" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]9534D9DB-AB89-4B26-8FA5-57D6C33D2235" data-sf-ec-immutable="">Supraventricular Tachycardia</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/tricuspid-regurgitation" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]97E19173-FEB3-43FA-8967-BF5AB74E79E1" data-sf-ec-immutable="">Tricuspid Regurgitation</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/varicose-veins" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]97E19173-FEB3-43FA-8967-BF5AB74E79E1" data-sf-ec-immutable="">Varicose Veins</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/ventricular-tachycardia" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]AE668A8B-1BB6-4C9F-A075-54BCB8E32543" data-sf-ec-immutable="">Ventricular Tachycardia</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/very-high-triglycerides" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]429584CD-0AA8-40CB-993D-ADF5CCAE5052" data-sf-ec-immutable="">Very High Triglycerides</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/wearable-technology" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]61767A14-67F6-479B-A724-327062EC9844" data-sf-ec-immutable="">Wearable Technology and Your Heart</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/women-and-heart-disease" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]D9135386-DF01-4914-B29B-D05D3C54EED4" data-sf-ec-immutable="">Women and Heart Disease</a></li>
+        </ul>
+    </nav><!-- column 1 conditions and topics end -->
+    <!-- column 2 Decisions, Health Basics start -->
+    <nav class="flex_auto p-x_3 p-y_4:lg w-grid_3:lg w-grid_6:md font_ui block navbar navbar-expand-lg navbar-expand-md" data-style="icon-toggle_plus-minus">
+        <h2 class="p-x_2 font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a href="/topics/decisions" class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]D3C88751-64E2-4C72-BE4E-8E92FAE4891D" data-sf-ec-immutable="">Decisions</a>
+            <div class="display_none:lg display_none:md block">
+                <div class="inline-block is-active_toggle-function h:underline-none p-x_2:lg p-x_2:md p-x_0 c_highlight h:c_secondary-3 collapsed" data-bs-toggle="collapse" data-bs-target="#decisions" aria-controls="decisions" aria-expanded="false" aria-label="Toggle navigation"><em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em></div><a href="/topics/decisions" class="inline-block h:undecorated c_highlight h:c_secondary-3 a:c_highlight" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]D3C88751-64E2-4C72-BE4E-8E92FAE4891D" data-sf-ec-immutable="">Decisions</a>
+            </div>
+        </h2>
+        <ul id="decisions" class="block font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/topics/decisions/shared-decisions" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]A65AD136-DAA6-4D9B-B582-D750DF27D64D" data-sf-ec-immutable="">Shared Decisions</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/decisions/patients-your-input-matters" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5C2A4C73-9882-4FFB-80B5-9AA1EEEC70FE" data-sf-ec-immutable="">Your Input Matters</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/decisions/decision-aids" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4ABE94E2-B738-4BDB-AD0C-E5D37FD6AA38" data-sf-ec-immutable="">What Are Decision Aids?</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/decisions/clinicians-start-a-conversation" class="c_white h:c_secondary-3 h:underline" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]F0DA98F8-8D89-458D-91E5-9FE51A8A8CF9" data-sf-ec-immutable="">For Clinicians</a></li>
+        </ul>
+        <h2 class="p-x_2 font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a href="/topics/manage-your-care" class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4D64F313-FE0B-495A-97DF-876C8F986794" data-sf-ec-immutable="">Manage Your Care</a>
+            <div class="display_none:lg display_none:md block">
+                <div class="inline-block is-active_toggle-function h:underline-none p-x_2:lg p-x_2:md p-x_0 c_highlight h:c_secondary-3 collapsed" data-bs-toggle="collapse" data-bs-target="#manageYourCare" aria-controls="manageYourCare" aria-expanded="false" aria-label="Toggle navigation"><em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em></div><a href="/topics/manage-your-care" class="inline-block h:undecorated c_highlight h:c_secondary-3 a:c_highlight" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]4D64F313-FE0B-495A-97DF-876C8F986794" data-sf-ec-immutable="">Manage Your Care</a>
+            </div>
+        </h2>
+        <ul id="manageYourCare" class="block font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/your-responsibilities" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]9E36ACBA-305B-4FDD-BE85-A7989F7D84B0" data-sf-ec-immutable="">Your
+                    Responsibilities</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/preparing-for-your-appointment" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]2B71A3ED-4553-4E86-A0C7-3C6732DD0606" data-sf-ec-immutable="">Preparing for Your
+                    Visit</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/your-care-team/what-is-a-cardiologist" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]0BD7C263-1C7A-439A-A77B-F977AC70FF9C" data-sf-ec-immutable="">What is a Cardiologist?</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/your-care-team" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]343A4240-0015-4C64-A218-7336226816A3" data-sf-ec-immutable="">Your Care Team</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/medication-adherence" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]B01CEB7C-4DD8-460A-BDA3-A60683CC9222" data-sf-ec-immutable="">Medication Adherence</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/putting-research-into-context" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3A656B62-D029-4F0D-AB1C-FF4F732789C2" data-sf-ec-immutable="">Putting Research Into Context</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/manage-your-care/clinical-trials" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]9AA017A4-C38C-44C3-8120-BA8CEDE2BD1C" data-sf-ec-immutable="">Clinical Trials</a></li>
+        </ul>
+    </nav><!-- column 2 Decisions, Health Basics end -->
+    <!-- column 3 Healthy Living start -->
+    <nav class="flex_auto p-x_3 p-y_4:lg w-grid_3:lg w-grid_6:md font_ui block navbar navbar-expand-lg navbar-expand-md" data-style="icon-toggle_plus-minus">
+        <h2 class="p-x_2 font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a href="/topics/healthy-living" class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]78F19E14-F60D-41DB-BAC2-8F0CDB3493B4" data-sf-ec-immutable="">Healthy Living</a>
+            <div class="display_none:lg display_none:md block">
+                <div class="inline-block is-active_toggle-function h:underline-none p-x_2:lg p-x_2:md p-x_0 c_highlight h:c_secondary-3 collapsed" data-bs-toggle="collapse" data-bs-target="#healthyLiving" aria-controls="healthyLiving" aria-expanded="false" aria-label="Toggle navigation"><em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em></div><a href="/topics/healthy-living" class="inline-block h:undecorated c_highlight h:c_secondary-3 a:c_highlight" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]78F19E14-F60D-41DB-BAC2-8F0CDB3493B4" data-sf-ec-immutable="">Healthy Living</a>
+            </div>
+        </h2>
+        <ul id="healthyLiving" class="block font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/topics/healthy-living/eat-better" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]13B7BED8-1FD1-47B9-9FCF-2597F08E5142" data-sf-ec-immutable="">Eat Better</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/healthy-living/lose-weight" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]B2C42010-B97A-43CF-9B9C-54738D18DA30" data-sf-ec-immutable="">Maintain a Healthy Weight</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/healthy-living/move-more" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]5CA51147-B174-41CE-B7C9-E5FB8EFDAFD0" data-sf-ec-immutable="">Move More</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/healthy-living/stop-smoking" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]512AA76F-D54F-4679-BDB5-C0FE84902770" data-sf-ec-immutable="">Stop Smoking</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/healthy-living/manage-stress" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]DEF89543-6EAF-4F82-B38D-D4296309FEEA" data-sf-ec-immutable="">Manage Stress</a></li>
+        </ul>
+        <h2 class="p-x_2 font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a href="/topics/caregivers" class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Caregivers</a>
+            <div class="display_none:lg display_none:md block">
+                <div class="inline-block is-active_toggle-function h:underline-none p-x_2:lg p-x_2:md p-x_0 c_highlight h:c_secondary-3 collapsed" data-bs-toggle="collapse" data-bs-target="#careGivers" aria-controls="careGivers" aria-expanded="false" aria-label="Toggle navigation"><em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em></div><a href="/topics/caregivers" class="inline-block h:undecorated c_highlight h:c_secondary-3 a:c_highlight" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Caregivers</a>
+            </div>
+        </h2>
+        <ul id="careGivers" class="block:md font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/topics/caregivers" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Care for
+                    Yourself</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/caregivers" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Managing the Details</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/caregivers" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Planning for the Future</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/topics/caregivers" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]3DD2D107-818B-494A-BCF3-D12CF9F4F7E4" data-sf-ec-immutable="">Resources for Caregivers</a></li>
+        </ul>
+    </nav><!-- column 3 Healthy Living end -->
+    <!-- column 4 About CardioSmart, Other ACC Offerings start -->
+    <nav class="flex_auto p-x_3 p-y_4:lg w-grid_3:lg w-grid_6:md font_ui block navbar navbar-expand-lg navbar-expand-md" data-style="icon-toggle_plus-minus">
+
+        <h2 class="p-x_2 is-active_toggle-function font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" data-sf-ec-immutable="">Risk Calculators</a>
+            <a class="h:undecorated p-x_0 c_highlight h:c_secondary-3 display_none:lg display_none:md inline-block collapsed" data-bs-toggle="collapse" data-bs-target="#RiskCalculators" aria-controls="RiskCalculators" aria-expanded="false" aria-label="Toggle navigation" data-sf-ec-immutable="">
+                <em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em><span class="h:undecorated c_highlight h:c_secondary-3 a:c_highlight">Risk Calculators</span>
+            </a>
+        </h2>
+        <ul id="RiskCalculators" class="block:md font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/stroke-and-bleeding-risk-calculator/home" class="c_white h:c_secondary-3 h:underline" sfref="[0c788645-6a78-45f5-a326-8c3bf6c8f21e]90A83390-7983-4590-9E37-708B5615DE2E" data-sf-ec-immutable="">AFib Stroke and Bleeding Risk Calculator</a>
+            </li>
+            <li class="text-indent_n1 p-l_4"><a href="/heart-disease-risk-calculator/home" class="c_white h:c_secondary-3 h:underline" sfref="[a27ad685-2ac3-4852-bad8-6385f1a02c86]71AE8DCE-06EC-435C-93CB-892F405B30AF" data-sf-ec-immutable="">Heart Disease Risk Calculator</a></li>
+        </ul>
+
+        <h2 class="p-x_2 font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a href="/about" class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]362F1B5E-9D4C-4880-8A77-3276BF1080CA" data-sf-ec-immutable="">About CardioSmart</a>
+            <div class="display_none:lg display_none:md block">
+                <div class="inline-block is-active_toggle-function h:underline-none p-x_2:lg p-x_2:md p-x_0 c_highlight h:c_secondary-3 collapsed" data-bs-toggle="collapse" data-bs-target="#aboutCardioSmart" aria-controls="aboutCardioSmart" aria-expanded="false" aria-label="Toggle navigation"><em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em></div><a href="/about" class="inline-block h:undecorated c_highlight h:c_secondary-3 a:c_highlight" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]362F1B5E-9D4C-4880-8A77-3276BF1080CA" data-sf-ec-immutable="">About CardioSmart</a>
+            </div>
+        </h2>
+        <ul id="aboutCardioSmart" class="block:md font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/about/editorial-board" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]1798CC47-3105-4FEC-B2A0-F328FF67F5CB" data-sf-ec-immutable="">Editorial Board</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/about/supporters-and-partners" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]E47DC749-AFCD-4382-8D7E-0E1E267AC9E2" data-sf-ec-immutable="">Supporters</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/about/content-use-requests" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]6AD25051-8F70-4E85-A4CB-A8B925808685" data-sf-ec-immutable="">Content Requests</a></li>
+            <li class="text-indent_n1 p-l_4"><a href="/about/contact-us" class="c_white h:c_secondary-3 h:underline" target="_self" sfref="[f669d9a7-009d-4d83-ddaa-000000000002]161D7D67-9910-4BD3-AD92-963FF9FD8C8B" data-sf-ec-immutable="">Contact Us</a></li>
+        </ul>
+
+        <h2 class="p-x_2 is-active_toggle-function font_2 font_3:lg font_display p-t_2 m-b_0:md m-t_4:md m-t_0 m-b_2 br_none:md br_none:lg br_dotted br_white-5 br-t_1"><a class="c_highlight h:c_secondary-3 inline-block:lg inline-block:md display_none" data-sf-ec-immutable="">Other ACC
+                Offerings</a>
+            <a class="h:undecorated p-x_0 c_highlight h:c_secondary-3 display_none:lg display_none:md inline-block collapsed" data-bs-toggle="collapse" data-bs-target="#otherACCOfferings" aria-controls="otherACCOfferings" aria-expanded="false" aria-label="Toggle navigation" data-sf-ec-immutable="">
+                <em class="flex_grow font_2 fas fa-fw icon-toggle_plus-minus c_white-8 p-r_4"></em><span class="h:undecorated c_highlight h:c_secondary-3 a:c_highlight">Other ACC Offerings</span>
+            </a>
+        </h2>
+        <ul id="otherACCOfferings" class="block:md font_0:lg font_n1 p-x_5 p-x_2:md m-l_3 m-l_0:md m-b_4 ul_none flex_column items_start collapse navbar-collapse">
+            <li class="text-indent_n1 p-l_4"><a href="/find-your-heart-a-home/" class="c_white h:c_secondary-3 h:underline" sfref="[873108be-472f-4df5-b797-73eb8eb760a7]44704C2B-8933-497B-B8C3-91D536ADB0AD" data-sf-ec-immutable="">Find Your Heart a
+                    Home</a></li>
+            <li class="text-indent_n1 p-l_4"><a class="c_white h:c_secondary-3 h:underline" href="https://ehac.acc.org/" target="_blank" data-sf-ec-immutable="">Early Heart Attack Care (EHAC)</a></li>
+        </ul>
+    </nav><!-- column 4 Care Givers, Other ACC Offerings end -->
+</div> 
+
+<div class="custom-content-block" >
+    <div class="font_1" ><div class="m-r_n4:md p-x_3 p-y_4:lg relative flex flex_column flex_row:md bg_shade-n4 shadow_n1"><section class="address c_white flex_auto m-r_5:md p-x_4 p-y_4"><a href="/home"><div class="bg_left logo_condensed-alt max-w_25"><span class="alt">logo_condensed-altmax-w_25</span></div></a>
+ <div class="address c_white"><h3 class="font_slab font_1 m-b_0 font_normal font_regular">American College of Cardiology</h3><address data-sf-ec-immutable="">
+ <h4 class="m-b_0 font_bold font_copy font_normal font_1 m-t_4">Heart House</h4><div class="flex font_copy font_0"><div class="flex_shrink p-r_5 m-r_5"><ul class="ul_none  lh_2"><li class="m-b_1 m-b_3:md font_normal"><span class="street-address">2400 N Street NW</span></li><li class="m-b_1 m-b_3:md font_normal"><span class="locality">Washington</span>,&nbsp;<span class="city-name">DC&nbsp;</span><span class="postal-code">20037</span></li><li class="m-b_1 m-b_3:md font_normal"><strong class="p-r_2 inline block:md inline:lg">Contact Us:</strong> <a class="c_inherit h:c_inherit" href="https://my.acc.org/s/ContactUsMemberCare"><span class="inline block:md inline:lg">ACC&nbsp;Member&nbsp;Care</span></a></li></ul></div><div class="flex_auto grid-w_6"><ul class="ul_none lh_2"><li class="m-b_1 m-b_3:md font_normal"><strong class="p-r_2 block:md inline:lg">Phone:</strong><a data-sf-ec-immutable="" href="tel://1-202-375-6000" class="tel c_white h:c_white h:underline"> <span class="block:md inline:lg">(202) 375-6000</span> </a> </li><li class="m-b_1 m-b_3:md font_normal"><strong class="p-r_2 block:md inline:lg">Toll Free:</strong><a data-sf-ec-immutable="" class="tel c_white h:c_white h:underline" href="tel:+18002534636" tel="+18002574737"><span class="block:md inline:lg">(800) 253-4636</span></a> </li><li class="m-b_1 m-b_3:md font_normal"><strong class="p-r_2 block:md inline:lg">Fax:</strong><a data-sf-ec-immutable="" class="fax c_white h:c_white h:underline"><span class="block:md inline:lg">(202) 375-7000</span></a></li></ul></div></div></address></div><div class="b_4 l_0 m-t_5 max-w_35 p-t_0:md p-t_5 r_0 relative social">
+ <h4 class="c_white font_regular font_slab m-b_3 m-b_4:lg text_center text_left:lg">Stay Connected </h4><ul class="flex social-bar ul_none c_white h:c_white m_0"><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="twitter social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://twitter.com/accintouch"><em class="fa-brands fa-x-twitter"></em></a><br></li><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="facebook social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://www.facebook.com/AmericanCollegeofCardiology"><em class="fa-brands fa-square-facebook"></em></a><br></li><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="youtube social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://www.youtube.com/channel/UCg2IevGMLxUlNXop_B_ONSw"><em class="fa-brands fa-youtube"></em></a><br></li><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="instagram social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://www.instagram.com/americancollegeofcardiology/"><em class="fa-brands fa-instagram"></em></a><br></li><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="google-play social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://play.google.com/store/apps/dev?id=5189912010956845696&amp;hl=en_US"><em class="fa-brands fa-google-play"></em></a><br></li><li class="flex_auto m-r_2"><a data-sf-ec-immutable="" class="apple-store social-bar--button block m-b_0 p_3 c_white-8 h:c_white text_center h:bg_primary-n1" target="_blank" href="https://apps.apple.com/us/developer/american-college-of-cardiology/id502174543#see-all/i-phonei-pad-apps"><em class="fa-brands fa-apple"></em></a><br></li></ul>
+ </div></section>
+ <section class="acc-websites flex_auto m-l_5:md m-r_5:md m-y_5 max-w_30 w-grid_12 w-grid_6:md"><h4 class="c_white font_regular font_slab m-b_3 m-b_4:lg text_center text_left:lg">Transforming Education to Knowledge</h4><ul class="ul_none lh_2 font_0"><li class="c_white"><a data-sf-ec-immutable="" href="https://www.acc.org/" class="c_white flex flex_row h:bg_black-2 h:c_white justify_between p-x_2 p_3" target="_blank"><span class="flex_auto inline-block p-l_3">ACC</span><em class="c_white fa-external-link-square fas flex_shrink float_right h:c_white p-r_3"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://cvquality.acc.org/Accreditation" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">Accreditation Services</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://accscientificsession.acc.org/" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">Annual Scientific Session</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a href="/home" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">CardioSmart</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://www.jacc.org" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">JACC Journals</span><em class="float_right flex_shrink fas p-r_3 c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://www.medaxiom.com/" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">MedAxiom</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://cvquality.acc.org/NCDR-Home" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">NCDR</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li><li class="c_white br_solid br_0 br-t_1  br_white-5"><a data-sf-ec-immutable="" href="https://cvquality.acc.org" class="h:bg_black-2 h:c_white c_white p-x_2 p_3 justify_between flex flex_row" target="_blank"><span class="inline-block flex_auto p-l_3">Quality Improvement for Institutions</span><em class="float_right flex_shrink fas p-r_3 c_white h:c_white fa-external-link-square"></em></a> </li></ul></section>
+</div></div>    
+</div>
+<div class="custom-content-block" >
+    <div class="font_1" ><div class="bg_secondary-n3 font_n1 p-x_4 p-y_4 m-r_n4:md" id="subfooter"><ul class="block footer-bottom-links ul_none"><li class="inline p_2"><a data-sf-ec-immutable="" class="c_white-6 h:c_white" href="//www.acc.org/footer-pages/media-center" target="_blank">Media Center</a></li><li class="inline p_2"><a data-sf-ec-immutable="" class="c_white-6 h:c_white" href="//www.acc.org/footer-pages/quick-start-guide" target="_blank">ACC.org Quick Start Guide</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/advertising-and-sponsorship-policy" class="c_white-6 h:c_white" target="_blank">Advertising &amp; Sponsorship Policy</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/clinical-content-disclaimer" class="c_white-6 h:c_white" target="_blank">Clinical Content Disclaimer</a> </li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/editorial-board" class="c_white-6 h:c_white" target="_blank">Editorial Board</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/privacy-policy" class="c_white-6 h:c_white" target="_blank">Privacy Policy</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/registered-user-agreement" class="c_white-6 h:c_white" target="_blank">Registered User Agreement</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/terms-and-conditions" class="c_white-6 h:c_white" target="_blank">Terms of Service</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/footer-pages/cookie-policy" class="c_white-6 h:c_white" target="_blank">Cookie Policy</a></li><li class="inline p_2"><a data-sf-ec-immutable="" href="//www.acc.org/sitemap-acc.xml" class="c_white-6 h:c_white" target="_blank">Site Map</a> </li></ul>
+ <p class="c_white-5 font_italic font_n2 legal m-b_2 m-t_3">© 2026 American College of Cardiology Foundation. All rights reserved.</p></div></div>    
+</div> <!-- / footer --> <!-- /subfooter --> </footer> <!-- /footer -->  <script src="/ResourcePackages/Bootstrap4/assets/dist/js/styleguide.js" type="text/javascript"></script><script src="/ResourcePackages/Bootstrap4/assets/dist/js/toggleActive.js" type="text/javascript"></script><script src="/ResourcePackages/Bootstrap4/assets/dist/js/owl.carousel.js" type="text/javascript"></script> <script>
+
+        $(document).ready(function () {
+            //search
+            // retrieve the datalist element
+            var arrowCounter = -1;
+            var arrowCounterDesk = -1;
+            var suggestions = [];
+            var suggestionsDesk = [];
+            var suggestions_list = document.getElementById('suggestion_list');
+            var inputVal = document.getElementById("searchInput");
+            var suggestions_list_desk = document.getElementById('suggestion_list_desk');
+            var inputValDesk = document.getElementById("searchInputDesk");
+            var globalToken = "";
+            var serviceURL = "https://americancollegeofcardiologyaccproductionjezroa08.org.coveo.com/rest/search";
+
+
+            function getToken() {
+
+                var serviceAccount = "AccOrgApplication_Pr";
+                var tokenString = "xxa10c2ded-0fc9-4d16-a407-1709e8c99ddd";
+                var tokenObjData = "{ \"userIds\": [{ \"name\": \"" + serviceAccount + "\", \"provider\": \"Email Security Provider\" }], \"Access-Control-Allow-Credentials\": true, \"searchHub\": \"Cardiosmart\" }";
+                var headerData = { "Authorization": "Bearer " + tokenString };
+
+                console.log("Token:", globalToken);
+                if (!globalToken) {
+                    console.log("Token is empty");
+                    $.ajax({
+                        url: serviceURL + "/token",
+                        data: tokenObjData, // get permission to call
+                        method: "POST",
+                        contentType: "application/json",
+                        headers: headerData, // dev auth token to call the coveo API
+                        async: false, //making dependent sync call
+                        success: function (result) {
+                            globalToken = result.token;
+                        }
+                    });
+                }
+                return globalToken;
+            }
+
+            document.addEventListener('click', function (event) {
+                var searchBar = document.getElementById("searchBar");
+                var autoCompleteList = document.getElementById("autocomplete-results");
+
+                if (!String.prototype.trim) {
+                    String.prototype.trim = function () {
+                        return this.replace(/^\s+|\s+$/g, '');
+                    };
+                }
+
+                var locateToSearch = function (suggestionList) {
+                    if (suggestionList.contains(event.target)) {
+                        window.location.href = "/search?q=" + event.target.innerText.trim();
+                    }
+                }
+
+                if (suggestions_list_desk != undefined) {
+                    locateToSearch(suggestions_list_desk);
+                }
+
+                if (autoCompleteList != undefined && autoCompleteList.parentElement.contains(searchBar)) {
+                    locateToSearch(autoCompleteList);
+                }
+
+                if (inputVal != undefined) {
+                    var isClickInside = inputVal.contains(event.target);
+                    if (!isClickInside) {
+                        suggestions_list.style.display = "none";
+                        arrowCounter = -1;
+                        arrowCounterDesk = -1;
+                    }
+                }
+                //desktop
+                if (inputValDesk != undefined) {
+                    var isClickInsideDesk = inputValDesk.contains(event.target);
+                    if (!isClickInsideDesk) {
+                        suggestions_list_desk.style.display = "none";
+                        arrowCounter = -1;
+                        arrowCounterDesk = -1;
+                    }
+                }
+            });
+            if (inputVal != undefined) {
+                inputVal.addEventListener("keyup", searchKeyHandler);
+            }
+            if (inputValDesk != undefined) {
+                inputValDesk.addEventListener("keyup", searchKeyHandler);
+            }
+            function searchKeyHandler(event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    //suggestions_list.innerHTML = "";
+                    if (suggestions_list != undefined) {
+                        suggestions_list.style.display = "none";
+                    }
+                    if (suggestions_list_desk != undefined) {
+                        suggestions_list_desk.style.display = "none";
+                    }
+                    //current value
+                    if (inputVal != undefined) {
+                        if (document.getElementById('id_' + arrowCounter) != undefined) {
+                            var curVal = document.getElementById('id_' + arrowCounter).innerText;
+                            if (curVal != undefined && curVal != "") {
+                                inputVal.value = curVal;
+                            }
+                        }
+                        if (inputVal.value === "") {
+                            document.getElementById('errMsgDisplay').style.display = "block";
+                            //window.location.href = "/search";
+                        }
+                        else {
+                            document.getElementById('errMsgDisplay').style.display = "none";
+                            window.location.href = "/search?sort=relevancy&q=" + inputVal.value; + "'";
+                        }
+                    }
+                    //desktop
+                    if (inputValDesk != undefined) {
+                        if (document.getElementById('id_d' + arrowCounterDesk) != undefined) {
+                            var curVal = document.getElementById('id_d' + arrowCounterDesk).innerText;
+                            if (curVal != undefined && curVal != "") {
+                                inputValDesk.value = curVal;
+                            }
+                        }
+                        if (inputValDesk.value === "") {
+                            document.getElementById('errMsgDisplayDesk').style.display = "block";
+                        }
+                        else {
+                            document.getElementById('errMsgDisplayDesk').style.display = "none";
+                            window.location.href = "/search?sort=relevancy&q=" + inputValDesk.value; + "'";
+                        }
+                    }
+                } else if (event.keyCode === 38) {
+                    if (inputVal != undefined) {
+                        if (arrowCounter > 0) {
+                            $('#id_' + arrowCounter).removeClass('active');
+                            arrowCounter = arrowCounter - 1;
+                            $('#id_' + arrowCounter).addClass('active');
+                        }
+                    }
+                    //desktop
+                    if (inputValDesk != undefined) {
+                        if (arrowCounterDesk > 0) {
+                            $('#id_d' + arrowCounterDesk).removeClass('active');
+                            arrowCounterDesk = arrowCounterDesk - 1;
+                            $('#id_d' + arrowCounterDesk).addClass('active');
+                        }
+                    }
+                } else if (event.keyCode === 40) {
+                    if (inputVal != undefined) {
+                        if (suggestions != null && suggestions.length > 0) {
+                            if (arrowCounter < (suggestions.length - 1)) {
+                                if (arrowCounter >= 0) {
+                                    $('#id_' + arrowCounter).removeClass('active');
+                                }
+                                arrowCounter = arrowCounter + 1;
+                                if (arrowCounter > -1) {
+                                    $('#id_' + arrowCounter).addClass('active');
+                                }
+                            }
+                            else {
+                                $('#id_' + (arrowCounter - 1)).removeClass('active');
+                                arrowCounter = -1
+                            }
+                        }
+                    }
+                    //desktop
+                    if (inputValDesk != undefined) {
+                        if (suggestionsDesk != null && suggestionsDesk.length > 0) {
+                            if (arrowCounterDesk < (suggestionsDesk.length - 1)) {
+                                if (arrowCounterDesk >= 0) {
+                                    $('#id_d' + arrowCounterDesk).removeClass('active');
+                                }
+                                arrowCounterDesk = arrowCounterDesk + 1;
+                                if (arrowCounterDesk > -1) {
+                                    $('#id_d' + arrowCounterDesk).addClass('active');
+                                }
+                            }
+                            else {
+                                $('#id_d' + (arrowCounterDesk - 1)).removeClass('active');
+                                arrowCounterDesk = -1
+                            }
+                        }
+                    }
+                }
+                else {
+
+                    // retireve the input element
+                    var input = event.target;
+                    // retrieve the datalist element
+                    // minimum number of characters before we start to generate suggestions
+                    var min_characters = 1;
+                    if (input.value.length < min_characters) {
+                        if (suggestions_list != undefined) {
+                            suggestions_list.style.display = "none";
+                        }
+                        //desktop
+                        if (suggestions_list_desk != undefined) {
+                            suggestions_list_desk.style.display = "none";
+                        }
+                        return;
+                    } else {
+                        //to hide error msg if any
+                        if (document.getElementById('errMsgDisplay') != undefined) {
+                            document.getElementById('errMsgDisplay').style.display = "none";
+                        }
+                        //desktop
+                        if (document.getElementById('errMsgDisplayDesk') != undefined) {
+                            document.getElementById('errMsgDisplayDesk').style.display = "none";
+                        }
+
+                        Coveo.SearchEndpoint.configureOnPremiseEndpoint(serviceURL, getToken());
+                        var endpoint = Coveo.SearchEndpoint.endpoints['default'];
+                        // IListFieldValuesRequest
+                        var fieldValueSuggestionQuery = {
+                            "field": "@cstopics",
+                            "numberOfValues": 5,
+                            "sortCriteria": "occurrences",
+                            "ignoreAccents": true,
+                            "patternType": "Wildcards",
+                            "pattern": "*" + event.target.value + "*"
+                        }
+                        var apiResult = endpoint.listFieldValues(fieldValueSuggestionQuery).then((res) => {
+                            suggestions = res;
+                            suggestionsDesk = res;
+                            var list = [];
+                            var listDesk = [];
+                            res.forEach(function (item, index) {
+                                // Create a new <option> element.
+                                var option = document.createElement('li');
+                                var textnode = document.createTextNode(item);
+                                option.appendChild(textnode);
+                                if (input.id == "searchInput") {
+                                    list.push('<li class="searchterm h:bg_primary-4 h:c_acc h:font_bold font_0 p-x_4 a:bg_primary-4 a:c_acc a:font_bold"  id="id_' + index + '">' + item.value + '</li>');
+                                }
+                                //desktop
+                                if (input.id == "searchInputDesk") {
+                                    listDesk.push('<li class="searchtermdesk h:bg_primary-4 h:c_acc h:font_bold font_0 p-x_4 a:bg_primary-4 a:c_acc a:font_bold"  id="id_d' + index + '">' + item.value + '</li>');
+                                }
+                            });
+                            if (list != undefined && list.length > 0) {
+                                if (suggestions_list != undefined) {
+                                    suggestions_list.innerHTML = "";
+                                    $('#suggestion_list').append(list.join(''));
+                                    suggestions_list.style.display = "block";
+                                }
+                            } else {
+                                if (suggestions_list != undefined) {
+                                    suggestions_list.innerHTML = "";
+                                    suggestions_list.style.display = "none";
+                                }
+                            }
+                            //desktop
+                            if (listDesk != undefined && listDesk.length > 0) {
+                                if (suggestions_list_desk != undefined) {
+                                    suggestions_list_desk.innerHTML = "";
+                                    $('#suggestion_list_desk').append(listDesk.join(''));
+                                    suggestions_list_desk.style.display = "block";
+                                }
+                            } else {
+                                if (suggestions_list_desk != undefined) {
+                                    suggestions_list_desk.innerHTML = "";
+                                    suggestions_list_desk.style.display = "none";
+                                }
+                            }
+                        }).catch((e) => {
+                            console.log(e);
+                            if (suggestions_list != undefined) {
+                                suggestions_list.style.display = "none";
+                            }
+                            if (suggestions_list_desk != undefined) {
+                                suggestions_list_desk.style.display = "none";
+                            }
+                        });
+                    }
+
+                }
+
+            }
+            if (document.getElementById("searchbtn") != undefined) {
+                document.getElementById("searchbtn").addEventListener("click", myFunction);
+            }
+            function myFunction() {
+                if (inputVal.value === "") {
+                    //document.getElementById('searchInput').style.border = "solid 1px red";
+                    document.getElementById('errMsgDisplay').style.display = "block";
+                }
+                else {
+                    document.getElementById('errMsgDisplay').style.display = "none";
+                    window.location.href = "/search?sort=relevancy&q=" + inputVal.value; + "'";
+                }
+            }
+            //desktop
+            if (document.getElementById("searchbtndesk") != undefined) {
+                document.getElementById("searchbtndesk").addEventListener("click", myDeskFunction);
+            }
+            function myDeskFunction() {
+                if (inputValDesk.value === "") {
+                    //document.getElementById('searchInput').style.border = "solid 1px red";
+                    document.getElementById('errMsgDisplayDesk').style.display = "block";
+                }
+                else {
+                    document.getElementById('errMsgDisplayDesk').style.display = "none";
+                    window.location.href = "/search?sort=relevancy&q=" + inputValDesk.value; + "'";
+                }
+            }
+            function setResult(val) {
+                //this.searchSuggestions = result;
+                inputVal.value = val;
+                //this.isOpen = false;
+                suggestions_list.style.display = "none";
+            }
+            $(document).on('click', 'li.searchterm', function (event) {
+                if (inputVal != undefined) {
+                    inputVal.value = event.target.innerText;
+                }
+                if (suggestions_list != undefined) {
+                    suggestions_list.style.display = "none";
+                }
+            });
+            //desktop
+            $(document).on('click', 'li.searchtermdesk', function (event) {
+                if (inputValDesk != undefined) {
+                    inputValDesk.value = event.target.innerText;
+                }
+                if (suggestions_list_desk != undefined) {
+                    suggestions_list_desk.style.display = "none";
+                }
+            });
+            //search ends
+
+            $('.accordionExample').each(function (i) {
+                var parent = this.id;
+                $(this).find('.card').each(function (index) {
+                    $(this).find('.btn-link').attr('data-bs-target', '#collapse' + i + '-' + index);
+                    $(this).find('.collapse').attr('id', 'collapse' + i + '-' + index);
+                });
+            });
+
+            function delete_cookie(name) {
+                document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+            }
+            function readCookie(name) {
+                var nameEQ = name + "=";
+                var ca = document.cookie.split(';');
+                for (var i = 0; i < ca.length; i++) {
+                    var c = ca[i];
+                    c = c.trim();
+                    if (c.indexOf(nameEQ) == 0)
+                        return c.substring(nameEQ.length, c.length);
+                }
+                return null;
+            }
+            if ((window.location.href.indexOf('/topics/') > 0) && (window.location.href.indexOf('/news') < 0) && (window.location.href.indexOf('/patient-story') < 0) && (window.location.href.indexOf('/assets') < 0)) {
+                var topicName = window.location.href.split('/')[4];
+                topicName = topicName.split('?')[0]
+            }
+            else {
+                topicName = null
+            }
+            if (topicName != null) {
+                var singleTopic;
+                var visitedTopics = document.cookie;
+                var cookieUpdated = false;
+                //var expiry = "expires=Thu, 2 Aug 2020 20:47:11 UTC;";
+                var path = "path=/;"
+                if (visitedTopics.indexOf(topicName) < 0) {
+                    //Topic is not present in cookies. Need to add it.
+                    if (visitedTopics.indexOf('topic_one') >= 0) {
+                        if (visitedTopics.indexOf('topic_two') >= 0) {
+                            if (visitedTopics.indexOf('topic_three') >= 0) {
+                                if (visitedTopics.indexOf('topic_four') >= 0) {
+                                    if ((visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_two')) && (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_three')) && (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_four'))) {
+
+                                        delete_cookie('topic_one');
+                                        document.cookie = "topic_one=" + topicName + ";" + path;
+                                    }
+                                    else if ((visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_three')) && (visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_four'))) {
+
+                                        delete_cookie('topic_two');
+                                        document.cookie = "topic_two =" + topicName + ";" + path;
+                                    }
+                                    else if ((visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_two')) && (visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_four'))) {
+
+                                        delete_cookie('topic_three');
+                                        document.cookie = "topic_three =" + topicName + ";" + path;
+                                    }
+                                    else {
+                                        delete_cookie('topic_four');
+                                        document.cookie = "topic_four=" + topicName + ";" + path;
+                                    }
+                                }
+                                else {
+                                    document.cookie = "topic_four =" + topicName + ";" + path;
+                                }
+                            }
+                            else {
+                                document.cookie = "topic_three=" + topicName + ";" + path;
+                            }
+                        }
+                        else {
+                            document.cookie = "topic_two=" + topicName + ";" + path;
+                        }
+                    }
+                    else {
+                        document.cookie = "topic_one=" + topicName + ";" + path;
+                    }
+                }
+                else if ((visitedTopics.indexOf(topicName) > 0) && ((visitedTopics.indexOf('topic_one') >= 0) && (visitedTopics.indexOf('topic_two') >= 0) && (visitedTopics.indexOf('topic_three') >= 0) && (visitedTopics.indexOf('topic_four') >= 0))) {
+                    if ((visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_two')) && (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_three')) && (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_four'))) {
+                        if (readCookie('topic_one') == topicName) {
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                            document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                            document.cookie = "topic_four =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_two') == topicName) {
+                                document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                                document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                                document.cookie = "topic_four =" + topicName + ";" + path;
+                            }
+                            else if (readCookie('topic_three') == topicName) {
+                                document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                                document.cookie = "topic_four =" + topicName + ";" + path;
+                            }
+
+
+
+                        }
+                    }
+                    else if ((visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_three')) && (visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_four'))) {
+                        if (readCookie('topic_two') == topicName) {
+                            document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                            document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                            document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                            document.cookie = "topic_one =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_three') == topicName) {
+                                document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                                document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                                document.cookie = "topic_one =" + topicName + ";" + path;
+                            }
+                            else if (readCookie('topic_four') == topicName) {
+                                document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                                document.cookie = "topic_one =" + topicName + ";" + path;
+                            }
+
+                        }
+                    }
+                    else if ((visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_two')) && (visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_four'))) {
+
+                        if (readCookie('topic_three') == topicName) {
+                            document.cookie = "topic_three =" + readCookie('topic_four') + ";" + path;
+                            document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + topicName + ";" + path;
+
+                        }
+                        else {
+                            if (readCookie('topic_four') == topicName) {
+
+                                document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                                document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                                document.cookie = "topic_two =" + topicName + ";" + path;
+                            }
+                            else if (readCookie('topic_one') == topicName) {
+                                document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                                document.cookie = "topic_two =" + topicName + ";" + path;
+                            }
+
+
+                        }
+                    }
+                    else {
+                        if (readCookie('topic_four') == topicName) {
+                            document.cookie = "topic_four =" + readCookie('topic_one') + ";" + path;
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                            document.cookie = "topic_three =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_one') == topicName) {
+                                document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                                document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                                document.cookie = "topic_three =" + topicName + ";" + path;
+                            }
+                            else if (readCookie('topic_two') == topicName) {
+
+                                document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                                document.cookie = "topic_three =" + topicName + ";" + path;
+                            }
+
+                        }
+                    }
+
+                }
+                else if ((visitedTopics.indexOf(topicName) > 0) && ((visitedTopics.indexOf('topic_one') >= 0) && (visitedTopics.indexOf('topic_two') >= 0) && (visitedTopics.indexOf('topic_three') >= 0))) {
+                    if ((visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_two')) && (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_three'))) {
+                        if (readCookie('topic_one') == topicName) {
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                            document.cookie = "topic_three =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_two') == topicName) {
+                                document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                                document.cookie = "topic_three =" + topicName + ";" + path;
+                            }
+                        }
+                    }
+                    else if ((visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_two') < visitedTopics.indexOf('topic_three'))) {
+                        if (readCookie('topic_two') == topicName) {
+                            document.cookie = "topic_two =" + readCookie('topic_three') + ";" + path;
+                            document.cookie = "topic_three =" + readCookie('topic_one') + ";" + path;
+                            document.cookie = "topic_one =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_three') == topicName) {
+                                document.cookie = "topic_three =" + readCookie('topic_one') + ";" + path;
+                                document.cookie = "topic_one =" + topicName + ";" + path;
+                            }
+                        }
+                    }
+                    else if ((visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_one')) && (visitedTopics.indexOf('topic_three') < visitedTopics.indexOf('topic_two'))) {
+                        if (readCookie('topic_three') == topicName) {
+                            document.cookie = "topic_three =" + readCookie('topic_one') + ";" + path;
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + topicName + ";" + path;
+                        }
+                        else {
+                            if (readCookie('topic_one') == topicName) {
+                                document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                                document.cookie = "topic_two =" + topicName + ";" + path;
+                            }
+                        }
+                    }
+                }
+                else if ((visitedTopics.indexOf(topicName) > 0) && ((visitedTopics.indexOf('topic_one') >= 0) && (visitedTopics.indexOf('topic_two') >= 0))) {
+                    if (visitedTopics.indexOf('topic_one') < visitedTopics.indexOf('topic_two')) {
+                        if (readCookie('topic_one') == topicName) {
+                            document.cookie = "topic_one =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_two =" + topicName + ";" + path;
+                        }
+                    }
+                    else {
+                        if (readCookie('topic_two') == topicName) {
+                            document.cookie = "topic_two =" + readCookie('topic_two') + ";" + path;
+                            document.cookie = "topic_one =" + topicName + ";" + path;
+                        }
+                    }
+
+                }
+
+            }
+            var $divscount = $(".relatedCarousel > div").length
+            if ($divscount > 1) {
+                $(".relatedCarousel").addClass("owl-carousel owl-theme");
+                $(".item").removeClass("w_30:lg");
+                var owlCarousel_el = $('.owl-carousel');
+                owlCarousel_el.owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: false,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    items: 1,
+                    callbacks: true,
+                    onInitialized: function () {
+                        $(".owl-carousel .owl-dots .owl-dot span").css("background", "#003159");
+                        $(".owl-theme .owl-dots .owl-dot.active span").css("background", "#E0953A");
+                    }
+                });
+                owlCarousel_el.on('changed.owl.carousel', function (event) {
+                    $(".owl-carousel .owl-dots .owl-dot span").css("background", "#003159");
+                    $(".owl-theme .owl-dots .owl-dot.active span").css("background", "#E0953A");
+                });
+
+
+            }
+
+
+            var $divscounts = $(".relatedCarousels > div").length
+
+            if ($divscounts > 3) {
+
+                $(".relatedCarousels").addClass("owl-carousel owl-theme");
+
+                $(".item").removeClass("w_30:lg");
+
+                var owlCarousel_el = $('.owl-carousel');
+                owlCarousel_el.owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: false,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        },
+                        1024: {
+                            items: 3
+                        }
+                    },
+                    callbacks: true,
+                    onInitialized: function () {
+                        $(".owl-carousel .owl-dots .owl-dot span").css("background", "#003159");
+                        $(".owl-theme .owl-dots .owl-dot.active span").css("background", "#E0953A");
+                    },
+                    onRefresh: function () {
+                        updateSize();
+                    },
+                    onRefreshed: function () {
+                        updateSize();
+                    }
+                });
+
+                function updateSize() {
+                    var maxHeight = parseInt($('.owl-item').eq(0).outerHeight());
+                    $('.owl-item').each(function () {
+                        var thisHeight = parseInt($(this).outerHeight());
+                        maxHeight = (maxHeight >= thisHeight ? maxHeight : thisHeight);
+                    });
+                    $('.owl-item').find('.actualItem').css('min-height', ptr(maxHeight));
+                }
+                owlCarousel_el.on("changed.owl.carousel", function (event) {
+                    $(".owl-carousel .owl-dots .owl-dot span").css("background", "#003159");
+                    $(".owl-theme .owl-dots .owl-dot.active span").css(
+                        "background",
+                        "#E0953A"
+                    );
+                });
+                function ptr(px) {
+                    rem = (1 / 16 * px) + 'rem';
+                    return rem;
+                };
+            }
+
+
+
+            var getFormattedQuery = function (selectedValues, fieldName) {
+                var q = "";
+                if (selectedValues.length > 0) {
+                    var strSelectedValues = selectedValues.join(",");
+                    q += (selectedValues.length > 1) ? "(" + fieldName + "==(" + strSelectedValues + ")) " : "(" + fieldName + "==" + selectedValues + ") ";
+                }
+                return q;
+            }
+
+            var getSelectedContentItemTypes = function () {
+                var labels = [];
+                $('#f_contenttypes input[type="checkbox"]').each(function (i, o) {
+
+                    var checked = $(o).prop("checked");
+                    if (checked) {
+                        var checkboxLabel = $(o).prop("labels")
+                        var labelText = $(checkboxLabel).prop("innerText");
+                        labels.push("\"" + labelText + "\"");
+                    }
+                });
+                return getFormattedQuery(labels, "@cscontentitemtype");
+            }
+
+            var getSelectedLanguages = function () {
+                var labels = [];
+                $('#f_languages input[type="checkbox"]').each(function (i, o) {
+
+                    var checked = $(o).prop("checked");
+                    if (checked) {
+                        var checkboxLabel = $(o).prop("labels")
+                        var labelText = $(checkboxLabel).prop("innerText");
+                        labels.push("\"" + labelText + "\"");
+                    }
+                });
+                return getFormattedQuery(labels, "@cslanguage");
+            }
+
+            var getSelectedClinicalTopics = function () {
+                var labels = [];
+                $('[filtertypes] .fa-times').each(function (i, o) {
+                    var parentElement = $(o).prop("parentElement");
+                    var anchorElement = $(parentElement).prop("parentElement");
+                    var anchorText = $(anchorElement).text();
+                    labels.push("\"" + anchorText.trim() + "\"");
+                });
+
+                return getFormattedQuery(labels, "@cstopics");
+            }
+
+
+            var buildAdvancedQuery = function () {
+                var aq = "(@syssource==(\"Cardiosmart\")) ";
+
+                //Get Selected Clinical Topics
+                aq += getSelectedClinicalTopics();
+
+                //Get Selected Content Item Types
+                aq += getSelectedContentItemTypes();
+
+                //Get Selected Languages
+                aq += getSelectedLanguages();
+
+                return aq;
+            }
+
+            var callAnalyticsApi = function (uri, headerData, analyticsData) {
+                $.ajax({
+                    url: "https://analytics.cloud.coveo.com/rest/ua/v15/analytics" + uri,
+                    data: JSON.stringify(analyticsData), // send analytics data
+                    contentType: "application/json",
+                    method: "POST",
+                    headers: headerData // auth token to call the coveo API
+                });
+            }
+
+            if (window.location.href.indexOf("/search?") > -1) {
+                var viewAnalytics = function (actionCause, ele, pos) {
+
+                    setTimeout(function () {
+                        var coveoResultsData = $('.coveo_results_data').html();
+
+                        if (coveoResultsData) {
+                            var resultsObj = JSON.parse(coveoResultsData);
+
+                            var queryText = $('#searchBar').val();
+                            var advancedExpression = buildAdvancedQuery();
+                            var pageNumber = $(".pagination a.active").prop("innerText");
+
+                            var headerData = { "Authorization": "Bearer " + getToken() };
+                            var analyticsData = null;
+
+                            if (actionCause === "documentOpen") {
+
+                                analyticsData =
+                                {
+                                    "language": (resultsObj.language) ? resultsObj.language : "en",
+                                    "userAgent": navigator.userAgent,
+                                    "customData": {
+                                        "apiVersion": resultsObj.apiVersion,
+                                        "pageNumber": (pageNumber) ? pageNumber : 1
+                                    },
+                                    "anonymous": false,
+                                    "userDisplayName": (resultsObj.userIdentities) ? resultsObj.userIdentities[0]?.name : "AccOrgApplication_Pr",
+                                    "originLevel1": "Cardiosmart",
+                                    "originLevel2": "default",
+                                    "originLevel3": window.location.origin,
+                                    "outcome": 0,
+                                    "originContext": "Search",
+                                    "documentUri": resultsObj.results[pos].ClickUri,
+                                    "documentUriHash": resultsObj.results[pos].raw["urihash"],
+                                    "searchQueryUid": resultsObj.searchUid,
+                                    "collectionName": resultsObj.results[pos].raw["collection"],
+                                    "sourceName": resultsObj.results[pos].raw["source"],
+                                    "documentPosition": pos + 1,
+                                    "actionCause": actionCause,
+                                    "documentTitle": resultsObj.results[pos].title,
+                                    "documentUrl": resultsObj.results[pos].uri,
+                                    "queryPipeline": resultsObj.pipeline,
+                                    "documentCategory": resultsObj.results[pos].raw["cscontentitemtype"]
+                                };
+
+                                callAnalyticsApi("/click", headerData, analyticsData);
+                            }
+                            else {
+                                analyticsData = [
+                                    {
+                                        "language": (resultsObj.language) ? resultsObj.language : "en",
+                                        "userAgent": navigator.userAgent,
+                                        "customData": {
+                                            "apiVersion": resultsObj.apiVersion,
+                                            "pageNumber": (pageNumber) ? pageNumber : 1
+                                        },
+                                        "anonymous": false,
+                                        "userDisplayName": (resultsObj.userIdentities) ? resultsObj.userIdentities[0]?.name : "AccOrgApplication_Pr",
+                                        "originLevel1": "Cardiosmart",
+                                        "originLevel2": "default",
+                                        "originLevel3": window.location.origin,
+                                        "outcome": 0,
+                                        "originContext": "Search",
+                                        "searchQueryUid": resultsObj.searchUid,
+                                        "queryText": resultsObj.basicExpression || queryText,
+                                        "actionCause": actionCause,
+                                        "advancedQuery": (resultsObj.advancedExpression) ? resultsObj.advancedExpression : advancedExpression,
+                                        "numberOfResults": resultsObj.totalCount,
+                                        "contextual": true,
+                                        "responseTime": resultsObj.duration,
+                                        "queryPipeline": resultsObj.pipeline,
+                                    }
+                                ];
+
+                                callAnalyticsApi("/searches", headerData, analyticsData);
+                            }
+                        }
+
+                    }, 1000);
+                };
+                viewAnalytics("searchFromLink");
+
+                var clickResultItems = function () {
+
+                    $('.articleNewsBlock').each(function (i, a) {
+                        $(a).unbind("click");
+                        $(a).click(function () {
+                            viewAnalytics("documentOpen", a, i);
+                        });
+                    });
+                };
+
+                var deselectClinicalTopic = function () {
+                    $('[filtertypes] .fa-times').each(function (i, o) {
+                        $(o).unbind("click");
+                        $(o).click(function () {
+                            viewAnalytics("facetDeselect", o, i);
+                            setTimeout(function () {
+                                clickPageNumbers();
+                                clickResultItems();
+                            }, 1000);
+
+                        });
+                    });
+                };
+
+                var clickPageNumbers = function () {
+                    $('.pagination a.page-link').each(function (i, a) {
+                        $(a).unbind("click");
+                        $(a).click(function () {
+                            viewAnalytics("pagerNumber", a, i);
+                            setTimeout(clickResultItems, 1000);
+                        });
+                    })
+                }
+
+                var checkedContentType = function () {
+                    $('[filtertypes] [type="checkbox"]').each(function (i, c) {
+                        $(c).unbind("click");
+                        $(c).click(function () {
+                            actionCause = "facetDeselect"
+                            var checked = $(c).prop("checked");
+                            if (checked) {
+                                actionCause = "facetSelect"
+                            }
+                            viewAnalytics(actionCause, c, i);
+                            setTimeout(function () {
+                                deselectClinicalTopic();
+                                clickPageNumbers();
+                                clickResultItems();
+                            }, 1000);
+
+                        });
+                    });
+                }
+
+                var attachClickEvents = function () {
+                    setTimeout(function () {
+                        checkedContentType();
+                        deselectClinicalTopic();
+                        clickPageNumbers();
+                        clickResultItems();
+                    }, 1000);
+                };
+
+                setTimeout(function () {
+                    //Filter clinical topics
+                    $('[filtertypes] select').each(function (i, s) {
+                        $(s).change(function () {
+                            viewAnalytics("facetSelect", s, i);
+                            attachClickEvents();
+                        });
+                    });
+
+                    //Search box input 'enter' submission
+                    $('#searchBar').keyup(function (event) {
+                        if (event.keyCode === 13) {
+                            viewAnalytics("searchboxSubmit");
+                            attachClickEvents();
+                        }
+                    });
+
+                    //Search box search button click submission
+                    $('#conf-data').find('button:contains("Search")').click(function (i, b) {
+                        viewAnalytics("searchboxSubmit", b, i);
+                        attachClickEvents();
+                    });
+
+                    //Sort button click
+                    $('div.btn-group a.btn').each(function (i, a) {
+                        $(a).click(function () {
+                            viewAnalytics("resultsSort", a, i);
+                            attachClickEvents();
+                        });
+                    });
+
+                }, 1000);
+
+                attachClickEvents();
+            }
+
+
+        });
+
+
+
+        </script> </div> </body> </html>
+
+                    <script src="https://www.acc.org/scripts/acc-cookie-banner.js"></script>
+                    <div id='cookie-banner'></div>
