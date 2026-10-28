@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# The printable new-patient guide is a form-style page (not useful in search results).
+Disallow: /education/new-patient-guide.html
+
+Sitemap: https://kanzam1.github.io/cardiology-website/sitemap.xml
