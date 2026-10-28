@@ -341,3 +341,29 @@ a { color: var(--primary); }
   .photo-placeholder { max-width: 260px; margin: 0 auto; }
   .site-nav a { margin: 0 0.75rem 0 0; }
 }
+
+.about-lead {
+  font-size: 1.25rem;
+  color: var(--primary-dark);
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.interest-list { padding-left: 1.2rem; }
+.interest-list li { margin-bottom: 0.6rem; }
+.interest-list strong { color: var(--primary-dark); }
+details.cv {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  padding: 0 1.2rem;
+  background: var(--bg-alt);
+}
+details.cv summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary-dark);
+  padding: 1rem 0;
+}
+details.cv[open] summary { border-bottom: 1px solid var(--border); margin-bottom: 1rem; }
