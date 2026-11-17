@@ -21,6 +21,12 @@ img { max-width: 100%; height: auto; }
 
 a { color: var(--primary); }
 
+a:focus-visible,
+.btn:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+
 .container {
   width: min(1100px, 92%);
   margin: 0 auto;
@@ -66,13 +72,19 @@ a { color: var(--primary); }
 }
 .photo-placeholder {
   aspect-ratio: 4 / 5;
-  background: var(--bg-alt);
-  border: 2px dashed var(--border);
+  background: linear-gradient(160deg, #fdf3f4, var(--bg-alt));
+  border: 1px solid var(--border);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--muted);
+}
+.photo-placeholder .monogram {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--primary);
+  opacity: 0.85;
 }
 .hero h1 {
   margin: 0 0 0.25rem;
