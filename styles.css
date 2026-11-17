@@ -329,6 +329,54 @@ a:focus-visible,
 .topic-list a:hover { border-color: var(--primary); }
 .topic-list strong { color: var(--primary-dark); }
 
+/* Newsletter signup */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: stretch;
+  margin: 1.25rem 0 0.75rem;
+  max-width: 560px;
+}
+.newsletter-form input[type="email"] {
+  flex: 1 1 240px;
+  min-width: 0;
+  padding: 0.75rem 0.9rem;
+  font: inherit;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.newsletter-form input[type="email"]:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+  border-color: var(--primary);
+}
+.newsletter-form .btn {
+  margin-top: 0;
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+}
+.newsletter-note {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 @media (max-width: 760px) {
   .info-table thead { display: none; }
   .info-table td { display: block; border: 0; padding: 0.15rem 0.5rem; }
