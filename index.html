@@ -212,7 +212,15 @@
     (function () {
       var form = document.querySelector('[data-newsletter]');
       var status = document.querySelector('[data-newsletter-status]');
-      if (!form || !status || !window.fetch || !window.URLSearchParams) return;
+      if (!form || !status) return;
+
+      function show(message) {
+        status.textContent = message;
+        status.hidden = false;
+      }
+
+      if (!window.fetch || !window.URLSearchParams) return;
+
       form.addEventListener('submit', function (event) {
         event.preventDefault();
         var button = form.querySelector('button[type="submit"]');
@@ -226,17 +234,19 @@
           .then(function (data) {
             if (data && data.success) {
               form.hidden = true;
-              status.textContent = 'Thank you — please check your inbox to confirm your subscription.';
+              show('Thank you — please check your inbox to confirm your subscription.');
               return;
             }
             var message = 'Please enter a valid email address.';
             try { message = data.errors.fields.email[0]; } catch (error) {}
-            status.textContent = message;
+            show(message);
             button.disabled = false;
           })
           .catch(function () {
-            status.textContent = 'Something went wrong. Please try again.';
-            button.disabled = false;
+            // Network or cross-origin block: fall back to a plain form post so the
+            // signup still completes on MailerLite's side.
+            show('Opening MailerLite to finish your subscription…');
+            form.submit();
           });
       });
     })();
