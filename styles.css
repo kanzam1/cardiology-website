@@ -376,6 +376,12 @@ a:focus-visible,
   font-size: 0.85rem;
   color: var(--muted);
 }
+.newsletter-form[hidden] { display: none; }
+.newsletter-status {
+  margin: 1rem 0 0;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
 
 @media (max-width: 760px) {
   .info-table thead { display: none; }
