@@ -329,58 +329,12 @@ a:focus-visible,
 .topic-list a:hover { border-color: var(--primary); }
 .topic-list strong { color: var(--primary-dark); }
 
-/* Newsletter signup */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
+/* MailerLite embed: site palette */
+#mlb2-48675389.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.primary {
+  background-color: var(--primary) !important;
 }
-.newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: stretch;
-  margin: 1.25rem 0 0.75rem;
-  max-width: 560px;
-}
-.newsletter-form input[type="email"] {
-  flex: 1 1 240px;
-  min-width: 0;
-  padding: 0.75rem 0.9rem;
-  font: inherit;
-  color: var(--text);
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-}
-.newsletter-form input[type="email"]:focus-visible {
-  outline: 3px solid var(--primary);
-  outline-offset: 2px;
-  border-color: var(--primary);
-}
-.newsletter-form .btn {
-  margin-top: 0;
-  border: 0;
-  cursor: pointer;
-  font: inherit;
-  font-weight: 600;
-}
-.newsletter-note {
-  margin: 0;
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-.newsletter-form[hidden] { display: none; }
-.newsletter-status {
-  margin: 1rem 0 0;
-  font-weight: 600;
-  color: var(--primary-dark);
+#mlb2-48675389.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.primary:hover {
+  background-color: var(--primary-dark) !important;
 }
 
 @media (max-width: 760px) {
